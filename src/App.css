@@ -31,3 +31,201 @@
     transform: rotate(360deg);
   }
 }
+
+.header-color{
+  background: #61dafb;
+  background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+}
+
+.beranda-grid {
+  background: -webkit-linear-gradient(to right,#2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  text-align: center;
+  top : 0;
+  left : 0;
+  margin: auto;
+  width: 100%;
+  height:100%;
+}
+.foto-img-bg {
+  border-radius: 50%;
+
+}
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.banner-text h1{
+font-size: 66px;
+font-weight: bold;
+color: white;
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: lem;
+}
+.ocial-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.kartu-nama{
+  background: -webkit-linear-gradient(to right,#355C7D, #6C5B7B, #C06C84);
+  background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
+ 
+  margin: auto;
+text-align: center;
+  
+  height: 100%;
+  width: 70%;
+}
+.kartu-nama-i{
+
+  background: -webkit-linear-gradient(to right,#355C7D, #6C5B7B, #C06C84);
+  background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
+  padding: 10%;
+  height: 100%;
+  font-size: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  color: chartreuse;
+  text-align: center;
+
+}
+
+.karyaku {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  background: -webkit-linear-gradient(to right,#2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+}
+.karya
+{
+  background: -webkit-linear-gradient(to right,#076585, #FFF);
+  background: linear-gradient(to right,#076585, #FFF);
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.karya h2
+{
+    color: darkorange;
+}
+
+
+.karya1
+{
+    
+  background: -webkit-linear-gradient(to right,#076585, #FFF);
+  background: linear-gradient(to right,#076585, #FFF);
+    width: 80%;
+ height: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.karya1 h2
+{
+    color: darkorange;
+}
+
+.karya1 img
+{
+    width: 70%;
+    height: 500px;
+}
+
+.karya1 a
+{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 8px;
+    display: block;/*menjadikan elemen tipe blok*/
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+     
+}
+
+.karya1 a:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+    transition-property: all;/*ms edge*/
+    width: 150px;
+    padding: 15px;
+}
+
+.app-footer{
+  text-align: center;
+  background: #61dafb;
+  background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+
+}
+
+.cv{
+  background-color: #282c34;
+
+}
+
+
+.beranda-grid1 {
+  background: -webkit-linear-gradient(to right,#2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  text-align: center;
+  top : 0;
+  left : 0;
+  margin: auto;
+  width: 100%;
+  height:700px;
+}
+
+@media screen and (max-width:680px){
+
+  
+.demo-big-content{
+  height: 100%;
+		width: 100%;
+		float: none;
+	}
+.header-color{
+  height: 100%;
+		width: 100%;
+		float: none;
+  }
+.demo-big-content  {
+
+  width: auto;
+  float: none;
+}
+}
