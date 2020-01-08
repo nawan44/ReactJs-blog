@@ -15,7 +15,10 @@ class Web extends Component {
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
                             <h2>Web 1</h2>
                             <p>
-                                <p>The Website build by React JS.</p>
+                                <p>
+
+                                    
+                                </p>
                                 
 
                             </p>
