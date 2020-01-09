@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
@@ -112,6 +113,13 @@
     font-weight: bold;
     color: white;
 }
+.judul-portofolio{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color:#571B7E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .banner-text hr {
     border-top: 5px dotted white;
     width: 50%;
@@ -202,9 +210,6 @@
     margin-bottom: 10px;
 }
 
-.karya1 h2 {
-    color: darkorange;
-}
 
 .karya1 img {
     width: 70%;

@@ -17,7 +17,7 @@ class Game extends Component {
                                 height="500px">
                                 Game
                             </iframe>
-                            <h2>Game 2D</h2>
+                            <h2 className="judul-portofolio">Game 2D</h2>
                             <p>
                                 
                             </p>
@@ -29,7 +29,7 @@ class Game extends Component {
                         <div className="karya1">
                             <img
                                 src="https://lh3.googleusercontent.com/isyLJsg-ybq8xsxkg2sIihjoztQPpXqUoESQi8saBP7SA-fPGFS2Em1LbmGknyxLnyvh=w720-h310-rw"></img>
-                            <h2>Game 3D</h2>
+                            <h2 className="judul-portofolio">Game 3D</h2>
                             <p>
                                
                                
@@ -41,7 +41,7 @@ class Game extends Component {
                         <div className="karya1">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2>Augmented Reality Geographic Information System</h2>
+                            <h2 className="judul-portofolio">Augmented Reality Geographic Information System</h2>
                             <p>
                                
                                
@@ -54,7 +54,7 @@ class Game extends Component {
                         <div className="karya1">
                             <img
                                 src="https://lh3.googleusercontent.com/isyLJsg-ybq8xsxkg2sIihjoztQPpXqUoESQi8saBP7SA-fPGFS2Em1LbmGknyxLnyvh=w720-h310-rw"></img>
-                            <h2>Aplikasi Virtual Reality</h2>
+                            <h2 className="judul-portofolio">Aplikasi Virtual Reality</h2>
                             <p>
                                 
                                 

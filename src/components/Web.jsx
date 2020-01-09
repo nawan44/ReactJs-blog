@@ -13,7 +13,7 @@ class Web extends Component {
                         <div className="karya1">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2>Web 1</h2>
+                            <h2 className="judul-portofolio">Web 1</h2>
                             <p>
                                 <p>
 
