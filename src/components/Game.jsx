@@ -14,7 +14,7 @@ class Game extends Component {
                                 src="http://www.nawina2d.com"
                                 frameBorder="none"
                                 width="100%"
-                                height="500px">
+                                height="700px">
                                 Game
                             </iframe>
                             <h2 className="judul-portofolio">Game 2D</h2>

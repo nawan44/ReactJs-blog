@@ -6,7 +6,7 @@ import github from './foto/github.png';
 import playstore from './foto/playstore.png';
 import instagram from './foto/instagram.png';
 import linkedin from './foto/linkedin.png';
-
+import medium from './foto/medium.png';
 
 class Beranda extends Component {
     render() {
@@ -28,7 +28,6 @@ class Beranda extends Component {
                         <div className="banner-text">
                             <h1>Magician</h1>
                             <hr/>
-                            <p>HTML/CSS | PHP | MySQL | JavaScript | Java | C# | Android | Unity | ReactJs</p>
 
                             <div className="social-links">
                                 <a href="https://www.instagram.com/nawan44">
@@ -44,6 +43,9 @@ class Beranda extends Component {
                                 </a>
                                 <a href="https://www.gitlab.com/nawan44">
                                     <img src={gitlab} alt="foto" className="logo"/>
+                                </a>
+                                <a href="https://medium.com/@nawan44">
+                                    <img src={medium} alt="foto" className="logo"/>
                                 </a>
                                 <a href="https://play.google.com/store/apps/dev?id=8037692933857434579">
                                     <img src={playstore} alt="foto" className="logo"/>
