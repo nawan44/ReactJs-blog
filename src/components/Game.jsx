@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Grid} from 'react-mdl';
 import {Link} from 'react-router-dom';
-import { Button, NavLink } from 'reactstrap';
+import {Button, NavLink} from 'reactstrap';
 class Game extends Component {
     render() {
         return (
@@ -18,54 +18,85 @@ class Game extends Component {
                                 Game
                             </iframe>
                             <h2 className="judul-portofolio">Game 2D</h2>
-                            <p>
-                                
-                            </p>
-                            
-                            <Button color="success" size="lg" block><Link to="www.nawina2d.com">Demo</Link> </Button>
-                            <Button size="lg" block style={{marginTop:'20px'}}>Git </Button>
-                            
+                            <p></p>
+
+                            <Button
+                                style={{
+                                padding: "0px"
+                            }}
+                                block>
+                                <NavLink
+                                    className="buttonGame"
+                                    href="https://github.com/nawan44/Game-2D-Adventure">Git</NavLink>
+                            </Button>
+
                         </div>
-                        <div className="karya1">
-                            <img
-                                src="https://lh3.googleusercontent.com/isyLJsg-ybq8xsxkg2sIihjoztQPpXqUoESQi8saBP7SA-fPGFS2Em1LbmGknyxLnyvh=w720-h310-rw"></img>
+                        <div className="karya">
+
+                            <iframe
+                                src="http://www.nawina3d.com"
+                                frameBorder="none"
+                                width="100%"
+                                height="700px">
+                                Game
+                            </iframe>
                             <h2 className="judul-portofolio">Game 3D</h2>
-                            <p>
-                               
-                               
-                            </p>
-                            
-                            <Button color="success" size="lg" block>Demo</Button>
+                            <p></p>
+
+                            <Button
+                                size="lg"
+                                block
+                                style={{
+                                marginTop: '20px'
+                            }}>Git
+                            </Button>
+
                         </div>
 
-                        <div className="karya1">
+                        <div className="karya">
+
                             <img
+                            style={{height:"65%", width:"80%"}}
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2 className="judul-portofolio">Augmented Reality Geographic Information System</h2>
-                            <p>
-                               
-                               
-                            </p>
-                            
-                            <Button size="lg" block color="success" >Demo</Button>
-                            <Button size="lg" style={{marginTop:'20px'}}><NavLink size="lg" block color="success"  href="https://www.nawina2d.com">Download</NavLink></Button>
+                            <h2 className="judul-portofolio">Augmented Reality</h2>
+                            <p></p>
+
+                            <Button
+                                style={{
+                                padding: "0px"
+                            }}
+                                block>
+                                <NavLink
+                                    className="buttonGame"
+                                    href="https://github.com/nawan44/Augmented-Reality-Geographic-Information-System">Git</NavLink>
+                            </Button>
 
                         </div>
-                        <div className="karya1">
-                            <img
-                                src="https://lh3.googleusercontent.com/isyLJsg-ybq8xsxkg2sIihjoztQPpXqUoESQi8saBP7SA-fPGFS2Em1LbmGknyxLnyvh=w720-h310-rw"></img>
-                            <h2 className="judul-portofolio">Aplikasi Virtual Reality</h2>
-                            <p>
-                                
-                                
-                            </p>
-                            <Button size="lg" block color="success" >Demo</Button>
-                            <Button size="lg" block style={{marginTop:'20px'}}>Download</Button>
+                        <div className="karya">
+
+                            <iframe
+                                src="http://www.nawinavr.com"
+                                frameBorder="none"
+                                width="100%"
+                                height="700px">
+                                Game
+                            </iframe>
+                            <h2 className="judul-portofolio">Virtual Reality</h2>
+                            <p></p>
+
+                            <Button
+                                style={{
+                                padding: "0px"
+                            }}
+                                block>
+                                <NavLink className="buttonGame">Git</NavLink>
+                            </Button>
+
                         </div>
                     </div>
                 </Grid>
             </div>
-         )
-        }
+        )
     }
+}
 export default Game;
