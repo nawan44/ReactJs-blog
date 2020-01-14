@@ -69,6 +69,17 @@
     font-size: 30px;
     padding: 0;
 }
+.buttonPlaystore{
+    color: lawngreen;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+.buttonGithub{
+    color: linen;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
