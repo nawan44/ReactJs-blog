@@ -10,7 +10,7 @@ class Web extends Component {
                 <Grid className="beranda-grid">
                     <div className="karyaku">
                        
-                        <div className="karya1">
+                        <div className="karya">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
                             <h2 className="judul-portofolio">Web 1</h2>
@@ -22,12 +22,9 @@ class Web extends Component {
                                 
 
                             </p>
-                            <Button size="lg" block color="success" >Demo</Button>
-                            <Button size="lg" style={{marginTop:'20px'}}><NavLink size="lg" block color="success"  href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan">Git</NavLink></Button>
-
-
+                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
-                        <div className="karya1">
+                        <div className="karya">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
                             <h2 className="judul-portofolio">Web 1</h2>
@@ -39,10 +36,7 @@ class Web extends Component {
                                 
 
                             </p>
-                            <Button size="lg" block color="success" >Demo</Button>
-                            <Button size="lg" style={{marginTop:'20px'}}><NavLink size="lg" block color="success"  href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan">Git</NavLink></Button>
-
-
+                            <Button block size="lg" style={{marginTop:'20px'}}>Git></Button>
                         </div>
                     </div>
 
