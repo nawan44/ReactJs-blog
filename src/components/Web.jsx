@@ -36,7 +36,7 @@ class Web extends Component {
                                 
 
                             </p>
-                            <Button block size="lg" style={{marginTop:'20px'}}>Git></Button>
+                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
                     </div>
 

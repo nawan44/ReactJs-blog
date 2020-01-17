@@ -3,6 +3,8 @@ import {Grid, Cell} from 'react-mdl';
 import buku from './foto/buku.png';
 import coffee from './foto/coffee.png';
 import music from './foto/music.png';
+import camera from './foto/camera.png';
+
 import travel from './foto/travel.png';
 import binar from './foto/binar.jpg';
 import dicoding from './foto/dicoding.png';
@@ -35,12 +37,12 @@ class TentangSaya extends Component {
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
                             <p>Address :<br/>
                                 KH Ahmad Junaedi Street, Bekasi, West Java, Indonesia</p>
-                            <p>Email:
+                            <p>Contact :
                                 <br/>
                                 rachmatgunawan@rachmatgunawan.com</p>
-                            <p>
-                                <a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby"/>Telegram</a>
-                            </p>
+                           
+                                <a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby"/><h4 className="contact">Telegram</h4></a>
+                           
                             <br/> <br/>
                             <h4 className="hobi"> Hobbies  </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
@@ -48,11 +50,13 @@ class TentangSaya extends Component {
                             <p><img src={travel} className="fotohoby"/>Traveling</p>
                             <p><img src={coffee} className="fotohoby"/>Coffee</p>
                             <p><img src={music} className="fotohoby"/>Listening to Music</p>
+                            <p><img src={camera} className="fotohoby"/>Photography</p>
+                            
                             <br/>  <br/>
                             <h4 style={{ marginTop: '20px' }} className="judulblog">Blog </h4>
                             <hr style={{ borderTop: '3px solid #833fb2'}}/>
-                            <p><img src={buku} className="fotohoby"/>Travel</p>
-                            <p><img src={buku} className="fotohoby"/>Experience</p>
+                            <p><img src={travel} className="fotohoby"/>Travel</p>
+                            <p><img src={buku} className="fotohoby"/>Paper</p>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={9}>
