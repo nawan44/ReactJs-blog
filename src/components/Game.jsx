@@ -9,52 +9,24 @@ class Game extends Component {
                 <Grid className="beranda-grid">
                     <div className="karyaku">
                         <div className="karya">
-
-                            <iframe
-                                src="http://www.nawina2d.com"
-                                frameBorder="none"
-                                width="100%"
-                                height="700px">
+                            <iframe src="http://www.nawina2d.com"  frameBorder="none" width="100%" height="700px">
                                 Game
                             </iframe>
                             <h2 className="judul-portofolio">Game 2D</h2>
                             <p></p>
 
-                            <Button
-                                style={{
-                                padding: "0px"
-                            }}
-                                block>
-                                <NavLink
-                                    className="buttonGame"
-                                    href="https://github.com/nawan44/Game-2D-Adventure">Git</NavLink>
+                            <Button style={{ padding: "0px" }} block>
+                                <NavLink className="buttonGame" href="https://github.com/nawan44/Game-2D-Adventure">Git</NavLink>
                             </Button>
-
                         </div>
                         <div className="karya">
-
-                            <iframe
-                                src="http://www.nawina3d.com"
-                                frameBorder="none"
-                                width="100%"
-                                height="700px">
-                                Game
+                            <iframe  src="http://www.nawina3d.com"  frameBorder="none" width="100%" height="700px">  Game
                             </iframe>
                             <h2 className="judul-portofolio">Game 3D</h2>
                             <p></p>
-
-                            <Button
-                                size="lg"
-                                block
-                                style={{
-                                marginTop: '20px'
-                            }}>Git
-                            </Button>
-
+                            <Button size="lg" block style={{ marginTop: '20px' }}>Git  </Button>
                         </div>
-
                         <div className="karya">
-
                             <img
                             style={{height:"65%", width:"80%"}}
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>

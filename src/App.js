@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './css/App.css';
 import Utama from './components/Utama';
 import Footer from './components/Footer';
 import {Link} from 'react-router-dom';
@@ -11,23 +11,21 @@ class App extends Component {
             <div className="demo-big-content">
                 <Layout>
                     <Header className="header-color" title="Portofolio" scroll>
-                        <Navigation>
-                            <Link to="/Home">Home</Link>
-                            <Link to="/AboutMe">About Me</Link>
-                            <Link to="/Game">Game</Link>
-                            <Link to="/Web">Website</Link>
-                            <Link to="/Apps">Android</Link>
+                        <Navigation >
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Home" >Home</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/AboutMe">About Me</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Game">Game</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Web">Website</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Apps">Android</Link>
                         </Navigation>
                     </Header>
                     <Drawer title="Portfolio">
-                        <Navigation>
-                            <Link to="/Home">Home
-                            </Link>
-                            <Link to="/AboutMe">About Me
-                            </Link>
-                            <Link to="/Game">Game</Link>
-                            <Link to="/Apps">Android</Link>
-                            <Link to="/Web">Website</Link>
+                        <Navigation >
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Home">Home  </Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/AboutMe">About Me </Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Game">Game</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Apps">Android</Link>
+                            <Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Web">Website</Link>
                         </Navigation>
                     </Drawer>
                     <Content>

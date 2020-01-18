@@ -20,7 +20,6 @@ const Utama = () => (
         <Route path="Game2DAdventure" component={Game2DAdventure}/>
         <Route path="/Apps" component={Apps}/>
         <Route path="/Web" component={Web}/>
-
     </Switch>
 )
 

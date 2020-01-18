@@ -7,8 +7,6 @@ const Footer = () => {
                 <p style={{textJustify:'center', fontSize:'14pt', color:'white'}} >&copy; Rachmat Gunawan 2020</p>
             </footer>
         </div>
-
     )
 }
-
 export default Footer;

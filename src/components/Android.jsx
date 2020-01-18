@@ -3,7 +3,6 @@ import {Grid, Cell} from 'react-mdl';
 import { NavLink, Button } from 'reactstrap';
 import kalkulator from './foto/kalkulator.png';
 import recycle from './foto/recycleview.png';
-
 import {Link} from 'react-router-dom';
 
 class Apps extends Component {
@@ -12,14 +11,10 @@ class Apps extends Component {
             <div>
                 <Grid className="beranda-grid">
                     <div className="karyaku">
-
                         <div className="karya">
-                            <img
-                                src={recycle}></img>
+                            <img src={recycle}></img>
                             <h2 className="judul-portofolio">Recycle View Android</h2>
-                            <p>
-                                
-                            </p>
+                            <p></p>
                             <Button color="secondary" block size="lg" style={{marginTop:'5px'}}>
                                 <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Dicoding-Android-Pemula">
                                     Github</NavLink></Button>
@@ -27,16 +22,11 @@ class Apps extends Component {
                             <Button color="info" block size="lg" style={{marginTop:'5px'}}>
                                 <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan">
                                     Playstore</NavLink></Button>
-
-
                         </div>
                         <div className="karya">
-                            <img
-                                src={kalkulator}></img>
+                            <img src={kalkulator}></img>
                             <h2 className="judul-portofolio">Kalkulator Android</h2>
-                            <p>
-                                
-                            </p>
+                            <p> </p>
                             <Button color="secondary" block size="lg" style={{marginTop:'5px'}}>
                                 <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Kalkulator-Android-Java/tree/developer">
                                     Github</NavLink></Button>
@@ -46,11 +36,8 @@ class Apps extends Component {
                                     Playstore</NavLink></Button>
                         </div>
                     </div>
-
                 </Grid>
-
             </div>
-
         )
     }
 }

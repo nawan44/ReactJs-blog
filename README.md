@@ -1,1 +1,1 @@
-Website ini berisi tentang portofolio pribadi dibangun dengan menggunakan React JS
+Website ini berisi tentang portofolio pribadi yang dibangun dengan menggunakan React JS.

@@ -40,9 +40,7 @@ class TentangSaya extends Component {
                             <p>Contact :
                                 <br/>
                                 rachmatgunawan@rachmatgunawan.com</p>
-                           
                                 <a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby"/><h4 className="contact">Telegram</h4></a>
-                           
                             <br/> <br/>
                             <h4 className="hobi"> Hobbies  </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
@@ -51,7 +49,6 @@ class TentangSaya extends Component {
                             <p><img src={coffee} className="fotohoby"/>Coffee</p>
                             <p><img src={music} className="fotohoby"/>Listening to Music</p>
                             <p><img src={camera} className="fotohoby"/>Photography</p>
-                            
                             <br/>  <br/>
                             <h4 style={{ marginTop: '20px' }} className="judulblog">Blog </h4>
                             <hr style={{ borderTop: '3px solid #833fb2'}}/>
@@ -101,7 +98,6 @@ class TentangSaya extends Component {
                                 <NavLink href="https://imastudio.co.id/">
                                     <img src={imastudio} height="100px" width="100px"></img>
                                 </NavLink>
-
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Indonesia Mobile-app Academy</h4>

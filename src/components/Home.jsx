@@ -16,22 +16,16 @@ class Beranda extends Component {
                     <Cell col={12}>
                         <img src={me} alt="foto" className="foto-img-bg"/>
                         <br/>
-
                         <div className="kutipan">
                             <h4  className="kutipan" >
-                               "One’s destination is never a place, but a new way of seeing things.”
-                                
-                                - Henry Miller
+                               "One’s destination is never a place, but a new way of seeing things.” - Henry Miller
                             </h4>
-
                         </div>
                         <div className="banner-text">
                             <h1>Magician</h1>
                             <hr/>
-
                             <div className="social-links">
                                 <a href="https://www.instagram.com/nawan44">
-
                                     <img src={instagram} alt="foto" className="logo"/>
                                 </a>
                                 <a href="https://www.linkedin.com/in/rachmat-gun">
@@ -51,13 +45,9 @@ class Beranda extends Component {
                                     <img src={playstore} alt="foto" className="logo"/>
                                 </a>
                             </div>
-
                         </div>
-
                     </Cell>
-
                 </Grid>
-
             </div>
         )
     }
