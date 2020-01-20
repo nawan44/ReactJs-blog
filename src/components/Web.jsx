@@ -12,14 +12,14 @@ class Web extends Component {
                         <div className="karya">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2 className="judul-portofolio">Web 1</h2>
+                            <h2 >Web 1</h2>
                             <p><p></p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
                         <div className="karya">
                             <img
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2 className="judul-portofolio">Web 1</h2>
+                            <h2  >Web 2</h2>
                             <p><p> </p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>

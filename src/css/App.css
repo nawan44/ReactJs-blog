@@ -10,7 +10,7 @@
     text-align: center;
 }
 .kutipan {
-    color: #00ff00;
+    color: linear-gradient(to right, #f0f2f0, #000c40);
     font-family: Amaranth, sans-serif;
     font-size: 25px;
 }
@@ -138,13 +138,7 @@
     font-weight: bold;
     color: white;
 }
-.judul-portofolio{
-    font-family: 'Acme', sans-serif;
-    font-size: 30px;
-    color:#571B7E;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 .banner-text hr {
     border-top: 5px dotted white;
     width: 50%;
@@ -218,48 +212,13 @@
     padding: 10px;
     margin-bottom: 10px;
 }
-
-.karya h2 {
-    color: darkorange;
-}
-
-.karya1 {
-
-    background: -webkit-linear-gradient(to right,#076585, #FFF);
-    background: linear-gradient(to right,#076585, #FFF);
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    padding: 10px;
+.karya h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    color:#571B7E;
     margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-
-.karya1 img {
-    width: 70%;
-    height: 500px;
-}
-
-.karya1 a {
-    text-decoration: none;
-    background-color: crimson;
-    color: white;
-    padding: 8px;
-    display: block;
-    /*menjadikan elemen tipe blok*/
-    width: 120px;
-    text-align: center;
-    border-radius: 8px;
-
-}
-.karya1 a:hover {
-    background-color: black;
-    transition-duration: 2s;
-    transition-property: all;
-    /*ms edge*/
-    width: 150px;
-    padding: 15px;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .app-footer {

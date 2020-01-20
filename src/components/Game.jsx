@@ -12,7 +12,7 @@ class Game extends Component {
                             <iframe src="http://www.nawina2d.com"  frameBorder="none" width="100%" height="700px">
                                 Game
                             </iframe>
-                            <h2 className="judul-portofolio">Game 2D</h2>
+                            <h2 >Game 2D</h2>
                             <p></p>
 
                             <Button style={{ padding: "0px" }} block>
@@ -22,7 +22,7 @@ class Game extends Component {
                         <div className="karya">
                             <iframe  src="http://www.nawina3d.com"  frameBorder="none" width="100%" height="700px">  Game
                             </iframe>
-                            <h2 className="judul-portofolio">Game 3D</h2>
+                            <h2 >Game 3D</h2>
                             <p></p>
                             <Button size="lg" block style={{ marginTop: '20px' }}>Git  </Button>
                         </div>
@@ -30,7 +30,7 @@ class Game extends Component {
                             <img
                             style={{height:"65%", width:"80%"}}
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2 className="judul-portofolio">Augmented Reality</h2>
+                            <h2 >Augmented Reality</h2>
                             <p></p>
 
                             <Button
@@ -53,7 +53,7 @@ class Game extends Component {
                                 height="700px">
                                 Game
                             </iframe>
-                            <h2 className="judul-portofolio">Virtual Reality</h2>
+                            <h2 >Virtual Reality</h2>
                             <p></p>
 
                             <Button
