@@ -13,6 +13,7 @@ class Game extends Component {
                                 Game
                             </iframe>
                             <h2 >Game 2D</h2>
+                            <h4>Desktop Mode</h4>
                             <p></p>
 
                             <Button style={{ padding: "0px" }} block>
