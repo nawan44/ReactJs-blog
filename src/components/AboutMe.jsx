@@ -36,7 +36,10 @@ class TentangSaya extends Component {
                             <h4 style={{ marginTop: '50px' }}  className="identity">Rachmat Gunawan</h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
                             <p>Address :<br/>
-                                KH Ahmad Junaedi Street, Bekasi, West Java, Indonesia</p>
+                                KH Ahmad Junaedi Street, 
+                                </p>
+                                <p>
+                                Bekasi, West Java, Indonesia</p>
                             <p>Contact :
                                 <br/>
                                 rachmatgunawan@rachmatgunawan.com</p>

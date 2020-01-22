@@ -212,6 +212,11 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+.karya img{
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
 .karya h2{
     font-family: 'Acme', sans-serif;
     font-size: 40px;
