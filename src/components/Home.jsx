@@ -7,6 +7,7 @@ import playstore from './foto/playstore.png';
 import instagram from './foto/instagram.png';
 import linkedin from './foto/linkedin.png';
 import medium from './foto/medium.png';
+import { Badge } from 'reactstrap';
 
 class Beranda extends Component {
     render() {
@@ -17,9 +18,11 @@ class Beranda extends Component {
                         <img src={me} alt="foto" className="foto-img-bg"/>
                         <br/>
                         <div className="kutipan">
+                            <Badge className="badgekutipan">
                             <h4  className="kutipan" >
                                "One’s destination is never a place, but a new way of seeing things.” - Henry Miller
                             </h4>
+                            </Badge>
                         </div>
                         <div className="banner-text">
                             <h1>Magician</h1>
