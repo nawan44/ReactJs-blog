@@ -127,7 +127,7 @@
     width: 250px;
     height: 250px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .banner-text {
     background-image: linear-gradient( 111.4deg, rgba(122,192,233,1) 18.8%, rgba(4,161,255,1) 100.2% );
@@ -135,8 +135,8 @@
     width: 75%;
     margin: auto;
     border-radius: 10px;
-    margin-top: 120px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .banner-text h1 {
     font-size: 66px;
@@ -171,8 +171,22 @@
     width: 14px;
     height: 14px;
     margin-right: 5px;
+    float: left;
 }
-
+.linknav{ 
+    color:"#00ff00"; 
+    font-style:"Bold";
+    font-size:12px;
+}
+.linknav h5{
+    float: left;
+    color: #00ff00;
+}
+.logonav{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
 .kartu-nama {
     background: -webkit-linear-gradient(to right,#355C7D, #6C5B7B, #C06C84);
     background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
@@ -259,15 +273,16 @@
     .kartu-nama {
         height: 100%;
         width: 100%;
-
     }
     .badgekutipan {
         background: -webkit-linear-gradient(to right, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #56ab2f, #a8e063); 
+        background: linear-gradient(to right, #56ab2f, #a8e063); 
         padding: 10px;
         width: 100%;
         margin: 0;
         height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .badgekutipan h4 {
         width: 100%;
@@ -281,17 +296,12 @@
         margin: 0;
 
     }
-    .kutipan {
-        color: #00ff00;
-        font-family: Amaranth, sans-serif;
-        font-size: 25px;
-        margin-top: 30px;
-    }
+    
     .foto-img-bg {
         border-radius: 50%;
         width: 250px;
         height: 250px;
-        margin: 70px 0 0;
+        margin: 90px 0 0;
     }
     .demo-big-content {
         height: 100%;
@@ -315,6 +325,8 @@
     .banner-text {
         width: auto;
         padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .beranda-grid {
