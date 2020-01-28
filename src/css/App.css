@@ -8,6 +8,11 @@
 .App {
     text-align: center;
 }
+.content-body{
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+
+}
 .kutipan {
     color: #0072ff;
     font-family: Amaranth, sans-serif;
@@ -17,7 +22,8 @@
     color: green;
 }
 .badgekutipan {
-    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #56ab2f, #a8e063);
     padding: 10px;
     width: 80%;
@@ -171,18 +177,18 @@
     width: 14px;
     height: 14px;
     margin-right: 5px;
-    float: left;
+    
 }
-.linknav{ 
-    color:"#00ff00"; 
-    font-style:"Bold";
-    font-size:12px;
+.linknav {
+    color: "#00ff00";
+    font-style: "Bold";
+    font-size: 12px;
 }
-.linknav h5{
+.linknav h5 {
     float: left;
     color: #00ff00;
 }
-.logonav{
+.logonav {
     width: 20px;
     height: 20px;
     float: right;
@@ -275,8 +281,9 @@
         width: 100%;
     }
     .badgekutipan {
-        background: -webkit-linear-gradient(to right, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #56ab2f, #a8e063); 
+        background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #56ab2f, #a8e063);
         padding: 10px;
         width: 100%;
         margin: 0;
@@ -288,7 +295,7 @@
         width: 100%;
         margin: 0;
         color: #0072ff;
-        font-size: 12px;
+        font-size: 10px;
     }
     .kartu-nama-i {
         height: 100%;
@@ -296,11 +303,11 @@
         margin: 0;
 
     }
-    
+
     .foto-img-bg {
         border-radius: 50%;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: 90px 0 0;
     }
     .demo-big-content {
@@ -316,8 +323,8 @@
         float: none;
     }
     .logo {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
         margin: 0;
         padding: 5px;
     }
@@ -328,15 +335,30 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .banner-text h1 {
+        font-size: 30px;
+    }
 
     .beranda-grid {
         margin: auto;
-        position: relative;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
+        background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+        background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+    
     }
-    .beranda-grid1 {
-        margin: auto;
-        width: 100%;
+ .body{
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+
+ }
+
+    .app-footer {
+        text-align: center;
+        background: #61dafb;
+        background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+        background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+
     }
+   
 }
