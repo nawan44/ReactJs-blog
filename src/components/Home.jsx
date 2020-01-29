@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import me from './foto/me.jpg';
+import me from './foto/sea.JPG';
 import gitlab from './foto/gitlab.png';
 import github from './foto/github.png';
 import playstore from './foto/playstore.png';
@@ -20,8 +20,10 @@ class Beranda extends Component {
                         <div className="kutipan">
                             <Badge className="badgekutipan">
                             <h4  className="kutipan" >
-                               "One’s destination is never a place, but a new way of seeing things.” - Henry Miller
+                               "One’s destination is never a place, but a new way of seeing things.”
+                               
                             </h4>
+                            <h4 className="kutipan">- Henry Miller -</h4>
                             </Badge>
                         </div>
                         <div className="banner-text">
@@ -35,6 +37,12 @@ class Beranda extends Component {
                                     <img src={linkedin} alt="foto" className="logo"/>
                                 </a>
 
+                                <a href="https://play.google.com/store/apps/dev?id=8037692933857434579">
+                                    <img src={playstore} alt="foto" className="logo"/>
+                                </a>
+                            </div>
+                            <div className="social-links" >
+
                                 <a href="https://www.github.com/nawan44">
                                     <img src={github} alt="foto" className="logo"/>
                                 </a>
@@ -44,9 +52,7 @@ class Beranda extends Component {
                                 <a href="https://medium.com/@nawan44">
                                     <img src={medium} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://play.google.com/store/apps/dev?id=8037692933857434579">
-                                    <img src={playstore} alt="foto" className="logo"/>
-                                </a>
+                               
                             </div>
                         </div>
                     </Cell>
