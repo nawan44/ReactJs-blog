@@ -6,7 +6,7 @@ import Game from './Game';
 import Game2DAdventure from './Game/Game2D/Game2DAdventure'
 import Game3D from './Game3D';
 import GameAR from './GameAR';
-import Web from './Web';
+import Website from './Website';
 import Apps from './Android';
 
 const Utama = () => (
@@ -19,7 +19,7 @@ const Utama = () => (
         <Route path="/GameAR" component={GameAR}/>
         <Route path="Game2DAdventure" component={Game2DAdventure}/>
         <Route path="/Apps" component={Apps}/>
-        <Route path="/Web" component={Web}/>
+        <Route path="/Website" component={Website}/>
     </Switch>
 )
 

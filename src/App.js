@@ -20,7 +20,7 @@ class App extends Component {
                             <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Home" >Home</Link></Badge>
                             <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/AboutMe">About Me</Link></Badge>
                             <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Game">Game</Link></Badge>
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Web">Website</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Website">Website</Link></Badge>
                             <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Apps">Android</Link></Badge>
                         </Navigation>
                     </Header>
@@ -36,7 +36,7 @@ class App extends Component {
                             <Link className="linknav" to="/Apps"><h5>Android</h5>
                             <img src={Android} className="logonav"/>
                             </Link>
-                            <Link className="linknav" to="/Web"><h5>Website</h5>
+                            <Link className="linknav" to="/Website"><h5>Website</h5>
                             <img src={Web} className="logonav"/>
                             </Link>
                         </Navigation>
