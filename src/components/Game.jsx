@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Grid} from 'react-mdl';
 import {Link} from 'react-router-dom';
-import {Button, NavLink} from 'reactstrap';
+import {Button, NavLink, Badge} from 'reactstrap';
 class Game extends Component {
     render() {
         return (
@@ -13,7 +13,13 @@ class Game extends Component {
                                 Game
                             </iframe>
                             <h2 >Game 2D</h2>
-                            <h4>Desktop Mode</h4>
+                            <div className="lisk">
+                               <h4>This game using the webgl platform, </h4> 
+                                   
+                                    <p></p><h5>Unity Engine</h5>
+                                    <p></p><h5>C#</h5>
+                                    
+                            </div>
                             <p></p>
 
                             <Button style={{ padding: "0px" }} block>
@@ -31,9 +37,18 @@ class Game extends Component {
                             <img
                             style={{height:"65%", width:"80%"}}
                                 src="https://lh3.googleusercontent.com/PkBg6wYYdAR1PJ7FiqfSpqac3MTKA6ZskOaxrkrflYkFLSRPa18NssZgzeISDECV-mM=w720-h310-rw"></img>
-                            <h2 >Augmented Reality</h2>
+                            
+                            <h2 style={{marginBottom:"20px"}} >Augmented Reality</h2>
+                            <div className="lisk">
+                               <h4>This Augmented Reality was built with </h4> 
+                                   
+                                    <p></p><h5>Unity Engine</h5>
+                                    <p></p><h5>Software Development Kit Vuforia</h5>
+                                    <p></p><h5>Software Development Kit Android</h5>
+                                    <p></p><h5>C#</h5>
+                                    
+                            </div>
                             <p></p>
-
                             <Button
                                 style={{
                                 padding: "0px"

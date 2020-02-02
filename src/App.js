@@ -17,11 +17,11 @@ class App extends Component {
                 <Layout>
                     <Header className="header-color" title="Portofolio" style={{color:"#00ff00"}} scroll> 
                         <Navigation >
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Home" >Home</Link></Badge>
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/AboutMe">About Me</Link></Badge>
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Game">Game</Link></Badge>
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Website">Website</Link></Badge>
-                            <Badge color ="info"><Link style={{color:"green", fontStyle:"Bold", fontSize:"15px"}} to="/Apps">Android</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"#00ff00", fontStyle:"Bold", fontSize:"15px"}} to="/Home" >Home</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"#00ff00", fontStyle:"Bold", fontSize:"15px"}} to="/AboutMe">About Me</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"#00ff00", fontStyle:"Bold", fontSize:"15px"}} to="/Game">Game</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"#00ff00", fontStyle:"Bold", fontSize:"15px"}} to="/Website">Website</Link></Badge>
+                            <Badge color ="info"><Link style={{color:"#00ff00", fontStyle:"Bold", fontSize:"15px"}} to="/Apps">Android</Link></Badge>
                         </Navigation>
                     </Header>
                     <Drawer title="Portofolio" style={{background: "linear-gradient(to right, #2980B9, #6DD5FA)", color:"#00ff00" , fontSize:"25px" }}>

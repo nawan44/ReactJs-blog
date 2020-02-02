@@ -237,6 +237,19 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+.lisk{
+    background: -webkit-linear-gradient(to right,#076585, #FFF);
+    background: linear-gradient(to right,#076585, #FFF);
+    color: black;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.lisk h5{
+  color: #282c34;
+}
+
+
 .karya img {
     width: 60%;
     margin-top: 80px;

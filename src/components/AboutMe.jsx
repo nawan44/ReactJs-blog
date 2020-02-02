@@ -37,13 +37,10 @@ class TentangSaya extends Component {
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
                             <p>Address :<br/>
                                 KH Ahmad Junaedi Street, 
-                                </p>
-                                <p>
                                 Bekasi, West Java, Indonesia</p>
-                            <p>Contact :
-                                <br/>
-                                rachmatgunawan@rachmatgunawan.com</p>
-                                <a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby"/><h4 className="contact">Telegram</h4></a>
+                            Contact :
+                            <p> <a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby"/><h5 className="contact">Telegram</h5></a></p>
+                               
                             <br/> <br/>
                             <h4 className="hobi"> Hobbies  </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }}/>
