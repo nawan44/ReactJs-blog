@@ -301,8 +301,8 @@
         width: 100%;
         margin: 0;
         height: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .badgekutipan h4 {
         width: 100%;
@@ -314,7 +314,17 @@
         height: 100%;
         width: 100%;
         margin: 0;
-
+    }
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: auto;
+        margin: auto;
+    
+    }
+    .banner-text h5{
+        font-size: 12px;
     }
 
     .foto-img-bg {
@@ -347,8 +357,7 @@
         width: auto;
         height: 200px;
         padding: 10px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     .banner-text h1 {
         font-size: 40px;
@@ -365,7 +374,13 @@
     background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
 
  }
+ .lisk{
+     font-size: 12px;
+ }
+ .lisk h5{
 
+    font-size: 10px;
+}
     .app-footer {
         text-align: center;
         background: #61dafb;
