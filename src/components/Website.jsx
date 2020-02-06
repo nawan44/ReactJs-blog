@@ -24,7 +24,7 @@ class Website extends Component {
                             <p><p></p></p>
                             <Button style={{ padding: "0px"}} block>
                                 <NavLink className="buttonGame"
-                                    href="https://github.com/nawan44/WebPhp">Git</NavLink>
+                                    href="https://github.com/nawan44/WebPhp" target="blank">Git</NavLink>
                             </Button>
 
                         </div>

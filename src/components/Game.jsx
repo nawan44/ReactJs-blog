@@ -23,7 +23,7 @@ class Game extends Component {
                             <p></p>
 
                             <Button style={{ padding: "0px" }} block>
-                                <NavLink className="buttonGame" href="https://github.com/nawan44/Game-2D-Adventure">Git</NavLink>
+                                <NavLink className="buttonGame" href="https://github.com/nawan44/Game-2D-Adventure" target="blank">Git</NavLink>
                             </Button>
                         </div>
                         <div className="karya">
@@ -56,7 +56,7 @@ class Game extends Component {
                                 block>
                                 <NavLink
                                     className="buttonGame"
-                                    href="https://github.com/nawan44/Augmented-Reality-Geographic-Information-System">Git</NavLink>
+                                    href="https://github.com/nawan44/Augmented-Reality-Geographic-Information-System" target="blank">Git</NavLink>
                             </Button>
 
                         </div>
