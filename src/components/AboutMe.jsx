@@ -32,7 +32,7 @@ class TentangSaya extends Component {
                             <p>Email:
                                 <br/>
                                 rachmatgunawan@rachmatgunawan.com</p>
-                                <p><a href="https://t.me/Nawan44"><img src={telegram} className="fotohoby" />Telegram</a></p>
+                                <p><a href="https://t.me/Nawan44" target="blank"><img src={telegram} className="fotohoby" />Telegram</a></p>
                             <br/>
                             <br/>
 
@@ -114,7 +114,7 @@ class TentangSaya extends Component {
                                     style={{
                                     marginTop: '5px'
                                 }}
-                                    href="https://www.dicoding.com/users/84441">Visit Developer Page</Button>
+                                    href="https://www.dicoding.com/users/84441" target="blank">Visit Developer Page</Button>
                             </Cell>
                         </Grid>
 

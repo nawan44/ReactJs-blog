@@ -23,7 +23,7 @@ class Game extends Component {
                                 Engine Unity dengan menggunakan bahasa pemrograman C#.
                             </p>
                             
-                            <Button color="success" size="lg" block><Link to="/Game2DAdventure">Demo</Link> </Button>
+                            <Button color="success" size="lg" block><NavLink href="http://www.nawina2D.com" target="blank">Demo</NavLink> </Button>
                             <Button size="lg" block style={{marginTop:'20px'}}>Download</Button>
                             
                         </div>
@@ -60,7 +60,7 @@ class Game extends Component {
                             </p>
                             
                             <Button size="lg" block color="success" >Demo</Button>
-                            <Button size="lg" style={{marginTop:'20px'}}><NavLink size="lg" block color="success"  href="https://play.google.com/store/apps/details?id=com.Nawina.ARGIS">Download</NavLink></Button>
+                            <Button size="lg" style={{marginTop:'20px'}}><NavLink size="lg" block color="success"  href="https://play.google.com/store/apps/details?id=com.Nawina.ARGIS" target="blank"> Download</NavLink></Button>
 
                         </div>
                         <div className="karya1">
