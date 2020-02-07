@@ -39,7 +39,7 @@ class TentangSaya extends Component {
                                 KH Ahmad Junaedi Street, 
                                 Bekasi, West Java, Indonesia</p>
                             Contact :
-                            <p> <a href="https://t.me/Nawan44" target="blank"><img src={telegram} className="fotohoby"/><h5 className="contact">Telegram</h5></a></p>
+                            <p> <a href="https://t.me/Nawan44" target="blank" rel="nofollow"><img src={telegram} className="fotohoby"/><h5 className="contact">Telegram</h5></a></p>
                                
                             <br/> <br/>
                             <h4 className="hobi"> Hobbies  </h4>
@@ -69,7 +69,7 @@ class TentangSaya extends Component {
                         </Grid>
                         <Grid>
                             <Cell col={4}>
-                            <NavLink href="https://www.mercubuana.ac.id" target="blank">
+                            <NavLink href="https://www.mercubuana.ac.id" target="blank" rel="nofollow">
                                     <img src={umb} height="70px" width="100px"></img>
                                 </NavLink>
                             </Cell>
@@ -82,7 +82,7 @@ class TentangSaya extends Component {
                         <h3 className="judul">Non-Formal Education</h3>
                         <Grid>
                             <Cell col={4}>
-                                <NavLink href="https://www.dicoding.com" target="blank">
+                                <NavLink href="https://www.dicoding.com" target="blank" rel="nofollow">
                                     <img src ={dicoding} height="100px" width="100px"></img>
                                 </NavLink>
                             </Cell>
@@ -90,12 +90,12 @@ class TentangSaya extends Component {
                                 <h4 style={{ marginTop: '0px' }}>Dicoding Academy</h4>
                                 <h5 style={{marginTop: '0px' }}> Game Developer</h5>
                                 <Button color="success" size="lg" style={{ marginTop: '5px' }}
-                                    href="https://www.dicoding.com/users/84441" target="blank">Developer Page</Button>
+                                    href="https://www.dicoding.com/users/84441" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
                         </Grid>
                         <Grid>
                             <Cell col={4}>
-                                <NavLink href="https://imastudio.co.id/" target="blank">
+                                <NavLink href="https://imastudio.co.id/" target="blank" rel="nofollow">
                                     <img src={imastudio} height="100px" width="100px"></img>
                                 </NavLink>
                             </Cell>
@@ -117,7 +117,7 @@ class TentangSaya extends Component {
                         </Grid>
                         <Grid>
                             <Cell col={4}>
-                                <NavLink href="https://binar.co.id/" target="blank">
+                                <NavLink href="https://binar.co.id/" target="blank" rel="nofollow">
                                     <img src={binar} height="100px" width="100px"></img>
                                 </NavLink>
                             </Cell>
@@ -130,7 +130,7 @@ class TentangSaya extends Component {
                         <h3 className="judul">Certifications</h3>
                         <Grid>
                             <Cell col={4}>
-                                <NavLink href="https://aspen.eccouncil.org/verify" target="blank">
+                                <NavLink href="https://aspen.eccouncil.org/verify" target="blank" rel="nofollow">
                                     <img src={cscu} height="70px" width="100px"></img>
                                 </NavLink>
                             </Cell>
@@ -142,7 +142,7 @@ class TentangSaya extends Component {
                         </Grid>
                         <Grid>
                             <Cell col={4}>
-                                <NavLink href="https://www.certiport.com/Portal/Pages/CredentialVerification.aspx" target="blank">
+                                <NavLink href="https://www.certiport.com/Portal/Pages/CredentialVerification.aspx" target="blank" rel="nofollow">
                                     <img src={microsoft} height="70px" width="100px"></img>
                                 </NavLink>
                             </Cell>

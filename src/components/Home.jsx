@@ -33,19 +33,19 @@ class Beranda extends Component {
                                 <h5>HTML/CSS | PHP | Unity | JavaScript | React | Android | C# </h5></p>
                             <hr/>
                             <div className="social-links">
-                                <a href="https://www.instagram.com/nawan44" target="blank">
+                                <a href="https://www.instagram.com/nawan44" target="blank" rel="nofollow">
                                     <img src={instagram} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://www.linkedin.com/in/rachmat-gun" target="blank">
+                                <a href="https://www.linkedin.com/in/rachmat-gun" target="blank" rel="nofollow">
                                     <img src={linkedin} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://www.github.com/nawan44" target="blank">
+                                <a href="https://www.github.com/nawan44" target="blank" rel="nofollow">
                                     <img src={github} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://play.google.com/store/apps/dev?id=8037692933857434579" target="blank">
+                                <a href="https://play.google.com/store/apps/dev?id=8037692933857434579" target="blank" rel="nofollow">
                                     <img src={playstore} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://medium.com/@nawan44" target="blank">
+                                <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
                                     <img src={medium} alt="foto" className="logo"/>
                                 </a>
                             </div>

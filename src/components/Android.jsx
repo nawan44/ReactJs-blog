@@ -22,11 +22,11 @@ class Apps extends Component {
                             </div>
                             <p></p>
                             <Button color="secondary" block size="lg" style={{marginTop:'5px'}}>
-                                <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Dicoding-Android-Pemula" target="blank">
+                                <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Dicoding-Android-Pemula" target="blank" rel="nofollow">
                                     Github</NavLink></Button>
                             <br ></br>
                             <Button color="info" block size="lg" style={{marginTop:'5px'}}>
-                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan" target="blank">
+                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan" target="blank" rel="nofollow">
                                     Playstore</NavLink></Button>
                         </div>
                         <div className="karya">
@@ -34,11 +34,11 @@ class Apps extends Component {
                             <h2>Kalkulator Android</h2>
                             <p> </p>
                             <Button color="secondary" block size="lg" style={{marginTop:'5px'}}>
-                                <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Kalkulator-Android-Java/tree/developer" target="blank">
+                                <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Kalkulator-Android-Java/tree/developer" target="blank" rel="nofollow">
                                     Github</NavLink></Button>
                             <br ></br>
                             <Button block color="info" size="lg" style={{marginTop:'5px'}}>
-                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.nawina.kalkulator" target="blank">
+                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.nawina.kalkulator" target="blank" rel="nofollow">
                                     Playstore</NavLink></Button>
                         </div>
                     </div>
