@@ -4,7 +4,6 @@ import buku from './foto/buku.png';
 import coffee from './foto/coffee.png';
 import music from './foto/music.png';
 import camera from './foto/camera.png';
-
 import travel from './foto/travel.png';
 import binar from './foto/binar.jpg';
 import dicoding from './foto/dicoding.png';

@@ -16,9 +16,7 @@ class Apps extends Component {
                             <h2>Recycle View Android</h2>
                             <div className="lisk">
                                <h4>This web project was built with </h4> 
-                                   
                                     <p></p><h5>Java</h5>
-                                    
                             </div>
                             <p></p>
                             <Button color="secondary" block size="lg" style={{marginTop:'5px'}}>

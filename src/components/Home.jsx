@@ -30,7 +30,7 @@ class Beranda extends Component {
                             <hr/>
                             <br></br>
                             <p  style={{color:"black"}}>
-                                <h5>HTML/CSS | PHP | Unity | JavaScript | React | Android | C# </h5></p>
+                                <h5>HTML/CSS | Unity | JavaScript | React | Android | C# </h5></p>
                             <hr/>
                             <div className="social-links">
                                 <a href="https://www.instagram.com/nawan44" target="blank" rel="nofollow">

@@ -26,6 +26,7 @@ class Game extends Component {
                                 <NavLink className="buttonGame" href="https://github.com/nawan44/Game-2D-Adventure" target="blank" rel="nofollow">Git</NavLink>
                             </Button>
                         </div>
+                         {/*
                         <div className="karya">
                             <iframe  src="http://www.nawina3d.com"  frameBorder="none" width="100%" height="700px">  Game
                             </iframe>
@@ -33,6 +34,7 @@ class Game extends Component {
                             <p></p>
                             <Button size="lg" block style={{ marginTop: '20px' }}>Git  </Button>
                         </div>
+                         */}
                         <div className="karya">
                             <img
                             style={{height:"65%", width:"80%"}}
@@ -41,12 +43,10 @@ class Game extends Component {
                             <h2 style={{marginBottom:"20px"}} >Augmented Reality</h2>
                             <div className="lisk">
                                <h4>This Augmented Reality was built with </h4> 
-                                   
                                     <p></p><h5>Unity Engine</h5>
                                     <p></p><h5>Software Development Kit Vuforia</h5>
                                     <p></p><h5>Software Development Kit Android</h5>
                                     <p></p><h5>C#</h5>
-                                    
                             </div>
                             <p></p>
                             <Button
@@ -60,8 +60,8 @@ class Game extends Component {
                             </Button>
 
                         </div>
+                         {/*
                         <div className="karya">
-
                             <iframe
                                 src="http://www.nawinavr.com"
                                 frameBorder="none"
@@ -81,6 +81,7 @@ class Game extends Component {
                             </Button>
 
                         </div>
+                        */}
                     </div>
                 </Grid>
             </div>
