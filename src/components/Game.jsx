@@ -26,15 +26,17 @@ class Game extends Component {
                                 <NavLink className="buttonGame" href="https://github.com/nawan44/Game-2D-Adventure" target="blank" rel="nofollow">Git</NavLink>
                             </Button>
                         </div>
-                         {/*
+                         
                         <div className="karya">
                             <iframe  src="http://www.nawina3d.com"  frameBorder="none" width="100%" height="700px">  Game
                             </iframe>
                             <h2 >Game 3D</h2>
                             <p></p>
-                            <Button size="lg" block style={{ marginTop: '20px' }}>Git  </Button>
+                            <Button style={{ padding: "0px" }} block>
+                                <NavLink className="buttonGame" href="https://github.com/nawan44/Game-3D-Survival" target="blank" rel="nofollow">Git</NavLink>
+                            </Button>
                         </div>
-                         */}
+                         
                         <div className="karya">
                             <img
                             style={{height:"65%", width:"80%"}}
