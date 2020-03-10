@@ -23,7 +23,7 @@ class Apps extends Component {
                                 <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Dicoding-Android-Pemula" target="blank" rel="nofollow">
                                     Github</NavLink></Button>
                             <br ></br>
-                            <Button color="info" block size="lg" style={{marginTop:'5px'}}>
+                            <Button color="primary" block size="lg" style={{marginTop:'5px'}}>
                                 <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.contoh.rachgunawan" target="blank" rel="nofollow">
                                     Playstore</NavLink></Button>
                         </div>
@@ -35,7 +35,7 @@ class Apps extends Component {
                                 <NavLink className="buttonGithub" style={{margin:"0px"}} href="https://github.com/nawan44/Kalkulator-Android-Java/tree/developer" target="blank" rel="nofollow">
                                     Github</NavLink></Button>
                             <br ></br>
-                            <Button block color="info" size="lg" style={{marginTop:'5px'}}>
+                            <Button block color="primary" size="lg" style={{marginTop:'5px'}}>
                                 <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.nawina.kalkulator" target="blank" rel="nofollow">
                                     Playstore</NavLink></Button>
                         </div>
