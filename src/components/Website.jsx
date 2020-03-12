@@ -35,6 +35,12 @@ class Website extends Component {
                             <p><p> </p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
+                         <div className="karya">
+                            <img src="#"></img>
+                            <h2  >Web 2</h2>
+                            <p><p> </p></p>
+                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
+                        </div>
                         */}
                     </div>
                 </Grid>
