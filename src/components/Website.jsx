@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import { Button, NavLink } from 'reactstrap';
 import {Link} from 'react-router-dom';
-
+import garage from './foto/garage.png'
 import web1 from './foto/web1.png';
 
 class Website extends Component {
@@ -30,7 +30,7 @@ class Website extends Component {
                         </div>
                         {/*
                         <div className="karya">
-                            <img src="#"></img>
+                            <img src={garage}}></img>
                             <h2  >Web 2</h2>
                             <p><p> </p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
@@ -39,7 +39,10 @@ class Website extends Component {
                             <img src="#"></img>
                             <h2  >Web 2</h2>
                             <p><p> </p></p>
-                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
+                            <Button style={{ padding: "0px"}} block>
+                                <NavLink className="buttonGame"
+                                    href="https://gitlab.com/BSD-Bootcamp/batch-3/team-a/frontend" target="blank" rel="nofollow">Git</NavLink>
+                            </Button>
                         </div>
                         */}
                     </div>

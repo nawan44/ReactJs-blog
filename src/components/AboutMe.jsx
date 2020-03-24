@@ -183,7 +183,7 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
-                                <h5 style={{ marginTop: '0px' }}>2016 - Now</h5>
+                                <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
                             </Cell>
                         </Grid>
                     </Cell>
