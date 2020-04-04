@@ -18,11 +18,11 @@ class Beranda extends Component {
                         <img src={me} alt="foto" className="foto-img-bg"/>
                         <br/>
                         <div className="kutipan">
-                            <Badge className="badgekutipan">
+                            <Badge className="badgekutipan" style={{width:"auto"}}>
                             <h4  className="kutipan" >
-                               "One’s destination is never a place, but a new way of seeing things.”
+                               "I'm a programmer. I like programming. And the best way I've found to have a positive impact on code is to write it.”
                             </h4>
-                            <h4 className="kutipan">- Henry Miller -</h4>
+                            <h4 className="kutipan">- Robert C. Martin, Clean Architecture -</h4>
                             </Badge>
                         </div>
                         <div className="banner-text">
@@ -30,7 +30,7 @@ class Beranda extends Component {
                             <hr/>
                             <br></br>
                             <p  style={{color:"black"}}>
-                                <h5>HTML/CSS | Unity | JavaScript | React | Android | C# </h5></p>
+                                <h5>HTML/CSS | C# | JavaScript | React | Android | Unity </h5></p>
                             <hr/>
                             <div className="social-links">
                                 <a href="https://www.instagram.com/nawan44" target="blank" rel="nofollow">
