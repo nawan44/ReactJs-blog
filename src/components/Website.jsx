@@ -30,14 +30,31 @@ class Website extends Component {
                         </div>
                         {/*
                         <div className="karya">
-                            <img src={garage}}></img>
+                            <img src={garage}></img>
                             <h2  >Web 2</h2>
                             <p><p> </p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
                          <div className="karya">
                             <img src="#"></img>
+                            <h2  > Garage</h2>
+                            <p><p> </p></p>
+                            <Button style={{ padding: "0px"}} block>
+                                <NavLink className="buttonGame"
+                                    href="https://gitlab.com/BSD-Bootcamp/batch-3/team-a/frontend" target="blank" rel="nofollow">Git</NavLink>
+                            </Button>
+                        </div>
+
+
+                         <div className="karya">
+                            <img src={garage}></img>
                             <h2  >Web 2</h2>
+                            <p><p> </p></p>
+                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
+                        </div>
+                         <div className="karya">
+                            <img src="#"></img>
+                            <h2  >RSMARTCOMM</h2>
                             <p><p> </p></p>
                             <Button style={{ padding: "0px"}} block>
                                 <NavLink className="buttonGame"
