@@ -1,5 +1,5 @@
-Website ini berisi tentang portofolio pribadi yang dibangun dengan menggunakan React JS
-Dengan Library :
+Website ini berisi tentang portofolio pribadi yang dibangun dengan menggunakan HTML, CSS, dan React JS
+Dengan beberapa library :
 
  - bootstrap: Versi 4.3.1,
  - react: Versi 16.12.0,

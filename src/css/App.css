@@ -8,7 +8,7 @@
 .App {
     text-align: center;
 }
-.content-body{
+.content-body {
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
 
@@ -177,7 +177,7 @@
     width: 14px;
     height: 14px;
     margin-right: 5px;
-    
+
 }
 .linknav {
     color: "#00ff00";
@@ -237,7 +237,7 @@
     padding: 10px;
     margin-bottom: 10px;
 }
-.lisk{
+.lisk {
     background: -webkit-linear-gradient(to right,#076585, #FFF);
     background: linear-gradient(to right,#076585, #FFF);
     color: black;
@@ -245,10 +245,9 @@
     height: 100%;
     margin: auto;
 }
-.lisk h5{
-  color: #282c34;
+.lisk h5 {
+    color: #282c34;
 }
-
 
 .karya img {
     width: 60%;
@@ -321,9 +320,9 @@
         width: 50%;
         height: auto;
         margin: auto;
-    
+
     }
-    .banner-text h5{
+    .banner-text h5 {
         font-size: 12px;
     }
 
@@ -369,18 +368,18 @@
         height: 100%;
         position: relative;
     }
- .body{
-    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+    .body {
+        background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+        background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
 
- }
- .lisk{
-     font-size: 12px;
- }
- .lisk h5{
+    }
+    .lisk {
+        font-size: 12px;
+    }
+    .lisk h5 {
 
-    font-size: 10px;
-}
+        font-size: 10px;
+    }
     .app-footer {
         text-align: center;
         background: #61dafb;
