@@ -60,6 +60,10 @@ class Website extends Component {
                                 <NavLink className="buttonGame"
                                     href="https://gitlab.com/BSD-Bootcamp/batch-3/team-a/frontend" target="blank" rel="nofollow">Git</NavLink>
                             </Button>
+                            <Button style={{ padding: "0px"}} block>
+                                <NavLink className="buttonGame"
+                                    href="https://rsmartcomm.com/" target="blank" rel="nofollow">RSMARTCOMM</NavLink>
+                            </Button>
                         </div>
                         */}
                     </div>
