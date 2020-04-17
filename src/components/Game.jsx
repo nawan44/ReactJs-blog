@@ -66,8 +66,8 @@ class Game extends Component {
                                     href="https://github.com/nawan44/Augmented-Reality-Geographic-Information-System" target="blank" rel="nofollow">Git</NavLink>
                             </Button>
                             <Button block color="primary" size="lg" style={{marginTop:'5px'}}>
-                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://play.google.com/store/apps/details?id=com.nawina.kalkulator" target="blank" rel="nofollow">
-                                    Playstore</NavLink></Button>
+                                <NavLink className="buttonPlaystore" style={{margin:"0px"}} href="https://drive.google.com/drive/folders/1TiY3zi6lu46MXNzjdIbnyorc6NoUjp1_?usp=sharing" target="blank" rel="nofollow">
+                                    APK</NavLink></Button>
                         </div>
                          
                         <div className="karya">

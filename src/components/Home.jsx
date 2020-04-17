@@ -45,9 +45,9 @@ class Beranda extends Component {
                                 <a href="https://play.google.com/store/apps/dev?id=8037692933857434579" target="blank" rel="nofollow">
                                     <img src={playstore} alt="foto" className="logo"/>
                                 </a>
-                                <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
+                                {/* <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
                                     <img src={medium} alt="foto" className="logo"/>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </Cell>
