@@ -5,6 +5,7 @@ import AboutMe from './AboutMe';
 import Game from './Game';
 import Website from './Website';
 import Apps from './Android';
+import MyProject from './MyProject';
 
 const Utama = () => (
     <Switch>
@@ -12,6 +13,7 @@ const Utama = () => (
         <Route path="/Home" component={Home}/>
         <Route path="/AboutMe" component={AboutMe}/>
         <Route path="/Game" component={Game}/>
+        <Route path="/MyProject" component={MyProject}/>
         <Route path="/Apps" component={Apps}/>
         <Route path="/Website" component={Website}/>
     </Switch>
