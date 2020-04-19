@@ -15,6 +15,11 @@ import umb from './foto/umb.png';
 import toyota from './foto/toyota.png';
 import ahm from './foto/ahm.png';
 import mii from './foto/isuzu.png';
+import upwork from './foto/upwork.png';
+import freelancer from './foto/freelancer.jpg';
+import projects from './foto/projects.png';
+
+
 import atr from './foto/atr.png';
 import aku from './foto/aku.jpg';
 import dqlab from './foto/dqlab.png';
@@ -185,6 +190,35 @@ class TentangSaya extends Component {
                                 <h4 style={{ marginTop: '0px' }}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
                                 <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
                             </Cell>
+                        </Grid>
+                        <hr style={{ borderTop: '3px solid #e22947' }}/>
+                        <h3 className="judul">Freelance</h3>
+                        <Grid>
+                            <Cell col={4}>
+                                <img src={upwork} height="70px" width="120px"></img>
+                            </Cell>
+                            <Cell col={8}>
+                                <h4 style={{ marginTop: '0px'}}> UPWORK </h4>
+                                <Button color="success" size="lg" style={{ marginTop: '5px' }}
+                                    href="https://www.upwork.com/o/profiles/users/~01d4a8f99444120f1f/" target="blank" rel="nofollow">Developer Page</Button>
+                            </Cell>
+                            <Cell col={4}>
+                                <img src={freelancer} height="50px" width="120px"></img>
+                            </Cell>
+                            <Cell col={8}>
+                            <h4 style={{ marginTop: '0px'}}> FREELANCER.COM </h4>
+                                <Button color="success" size="lg" style={{ marginTop: '5px' }}
+                                    href="https://www.freelancer.com/u/nawan44" target="blank" rel="nofollow">Developer Page</Button>
+                            </Cell>
+                            <Cell col={4}>
+                                <img src={projects} height="50px" width="120px"></img>
+                            </Cell>
+                            <Cell col={8}>
+                            <h4 style={{ marginTop: '0px'}}> PROJECTS.CO.ID </h4>
+                                <Button color="success" size="lg" style={{ marginTop: '5px' }}
+                                    href="https://projects.co.id/public/browse_users/view/94bf15/nawan44" target="blank" rel="nofollow">Developer Page</Button>
+                            </Cell>
+                           
                         </Grid>
                     </Cell>
                 </Grid>
