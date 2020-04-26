@@ -28,16 +28,11 @@ class Website extends Component {
                             </Button>
 
                         </div>
-                        {/*
-                        <div className="karya">
-                            <img src={garage}></img>
-                            <h2  >Web 2</h2>
-                            <p><p> </p></p>
-                            <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
-                        </div>
+                        
+  
                          <div className="karya">
-                            <img src="#"></img>
-                            <h2  > Garage</h2>
+                            <img src={garage}></img>
+                            <h2  > GarageLife.com</h2>
                             <p><p> </p></p>
                             <Button style={{ padding: "0px"}} block>
                                 <NavLink className="buttonGame"
@@ -45,7 +40,7 @@ class Website extends Component {
                             </Button>
                         </div>
 
-
+{/*
                          <div className="karya">
                             <img src={garage}></img>
                             <h2  >Web 2</h2>
