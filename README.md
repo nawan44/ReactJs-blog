@@ -1,7 +1,7 @@
 <h1>React Js </h1>
 <h3>Sample Portofolio</h3>
 This website contains personal portfolios that were built using 
-<p>HTML5, CSS3, and React JS. 
+<p>
 
 ![html](https://user-images.githubusercontent.com/28913705/81489429-78a8b880-929f-11ea-8753-419bfdf3237c.png)
 ![css](https://user-images.githubusercontent.com/28913705/81489431-7e9e9980-929f-11ea-8356-a2020000167d.png)
