@@ -3,12 +3,9 @@
 This website contains personal portfolios that were built using 
 <p>HTML5, CSS3, and React JS. 
 
- 
-
-![html](https://user-images.githubusercontent.com/28913705/81489170-df78a280-929c-11ea-95b9-d1a78400203b.png)
-![css](https://user-images.githubusercontent.com/28913705/81489217-38483b00-929d-11ea-8742-76d7ec76399f.png)
-
-![react-logo](https://user-images.githubusercontent.com/28913705/81489250-81988a80-929d-11ea-9c01-8b4420ba83db.png)
+![html](https://user-images.githubusercontent.com/28913705/81489429-78a8b880-929f-11ea-8753-419bfdf3237c.png)
+![css](https://user-images.githubusercontent.com/28913705/81489431-7e9e9980-929f-11ea-8356-a2020000167d.png)
+![react-logo](https://user-images.githubusercontent.com/28913705/81489433-83fbe400-929f-11ea-9bde-62dd9b37c98c.png)
 </p>
 <p>With several libraries:</p>
 <ul>
