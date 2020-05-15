@@ -6,6 +6,7 @@ import music from './foto/music.png';
 import camera from './foto/camera.png';
 import travel from './foto/travel.png';
 import binar from './foto/binar.jpg';
+import dts from './foto/dts.png';
 import dicoding from './foto/dicoding.png';
 import imastudio from './foto/imastudio.png';
 import microsoft from './foto/microsoft.png';
@@ -18,8 +19,6 @@ import mii from './foto/isuzu.png';
 import upwork from './foto/upwork.png';
 import freelancer from './foto/freelancer.jpg';
 import projects from './foto/projects.png';
-
-
 import atr from './foto/atr.png';
 import aku from './foto/aku.jpg';
 import dqlab from './foto/dqlab.png';
@@ -130,6 +129,17 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}>Front End Developer</h5>
                             </Cell>
                         </Grid>
+                        <Grid>
+                            <Cell col={4}>
+                                <NavLink href="https://digitalent.kominfo.go.id/" target="blank" rel="nofollow">
+                                    <img src={dts} height="100px" width="100px"></img>
+                                </NavLink>
+                            </Cell>
+                            <Cell col={8}>
+                                <h4 style={{ marginTop: '0px' }}>Digital Talent Scholarship</h4>
+                                <h5 style={{ marginTop: '0px' }}>HTML, CSS, Javascript</h5>
+                            </Cell>
+                        </Grid>
                         <hr style={{ borderTop: '3px solid #e22947' }}/>
                         <h3 className="judul">Certifications</h3>
                         <Grid>
@@ -191,7 +201,7 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
                             </Cell>
                         </Grid>
-                        <hr style={{ borderTop: '3px solid #e22947' }}/>
+                        {/* <hr style={{ borderTop: '3px solid #e22947' }}/>
                         <h3 className="judul">Freelance</h3>
                         <Grid>
                             <Cell col={4}>
@@ -219,7 +229,7 @@ class TentangSaya extends Component {
                                     href="https://projects.co.id/public/browse_users/view/94bf15/nawan44" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
                            
-                        </Grid>
+                        </Grid> */}
                     </Cell>
                 </Grid>
             </div>
