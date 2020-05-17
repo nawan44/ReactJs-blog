@@ -4,7 +4,10 @@
 @import url( 'https://fonts.googleapis.com/css?family=Acme&display=swap');
 @import url( 'https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
 @import url( 'https://fonts.googleapis.com/css?family=Jockey+One&display=swap');
-
+.lisk ul{
+    float: left;
+    margin-right: 15px;
+}
 .App {
     text-align: center;
 }
@@ -77,6 +80,7 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
 
 .App-link {
     color: #61dafb;
@@ -292,6 +296,11 @@
         height: 100%;
         width: 100%;
     }
+    .karya iframe{
+        height: 200px;
+        width: 80%;
+    }
+
     .badgekutipan {
         background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
         /* Chrome 10-25, Safari 5.1-6 */
