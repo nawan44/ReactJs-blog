@@ -6,6 +6,7 @@ import github from './foto/github.png';
 import playstore from './foto/playstore.png';
 import instagram from './foto/instagram.png';
 import linkedin from './foto/linkedin.png';
+import youtube from './foto/youtube.png';
 import medium from './foto/medium.png';
 import { Badge } from 'reactstrap';
 
@@ -25,7 +26,7 @@ class Beranda extends Component {
                             <h4 className="kutipan">- Robert C. Martin, Clean Architecture -</h4>
                             </Badge>
                         </div>
-                        <div className="banner-text">
+                        <div className="banner-text" >
                             <h1>Magician</h1>
                             <hr/>
                             <br></br>
@@ -42,13 +43,22 @@ class Beranda extends Component {
                                 <a href="https://www.github.com/nawan44" target="blank" rel="nofollow">
                                     <img src={github} alt="foto" className="logo"/>
                                 </a>
+                                
+                            </div>
+                            <div className="social-links">
+                            
                                 <a href="https://play.google.com/store/apps/dev?id=8037692933857434579" target="blank" rel="nofollow">
                                     <img src={playstore} alt="foto" className="logo"/>
                                 </a>
-                                {/* <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
+                                <a href="https://www.youtube.com/channel/UCo26abxyKLHgGQmb9bAMP6Q?disable_polymer=true" target="blank" rel="nofollow">
+                                    <img src={youtube} alt="foto" className="logo"/>
+                                </a>
+                                <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
                                     <img src={medium} alt="foto" className="logo"/>
-                                </a> */}
+                                </a>
+                                
                             </div>
+
                         </div>
                     </Cell>
                 </Grid>
