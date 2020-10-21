@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import {Grid} from 'react-mdl';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Grid } from 'react-mdl';
+import { Link } from 'react-router-dom';
 import game2d from './foto/2d.png';
 import game3d from './foto/3d.png';
 import ar from './foto/ar.png';
 import vr from './foto/vr.png';
 
-import {Button, NavLink, Badge} from 'reactstrap';
+import { Button, NavLink, Badge } from 'reactstrap';
 class Game extends Component {
     render() {
         return (
@@ -23,8 +23,8 @@ class Game extends Component {
                             <h2 >Game 2D</h2>
                             <div className="lisk">
                                 <h4>This 2D adventure game has 2 levels. There are several obstacles that must
-                                    be passed by the player. To be able to go up in each level, players must
-                                    complete missions, pick up a scroll. Players can fire weapons at the enemy,
+                                be passed by the player. To be able to go up in each level, players must
+                                complete missions, pick up a scroll. Players can fire weapons at the enemy,
                                     after taking the kunai symbol</h4>
 
                                 <p><ul>
@@ -35,7 +35,7 @@ class Game extends Component {
 
                                 <p><ul>
                                     CREDITS
-                                ArtS
+                                    ArtS
                                     <li>Erin Facile</li>
                                     <li>Clint Belangger</li>
                                     <li>Camtatz</li>
@@ -226,7 +226,7 @@ class Game extends Component {
                                     style={{
                                         margin: "0px"
                                     }}
-                                    href="https://play.google.com/store/apps/details?id=com.nawina.kalkulator"
+                                    href="https://play.google.com/store/apps/dev?id=8037692933857434579"
                                     target="blank"
                                     rel="nofollow">
                                     Playstore</NavLink>
