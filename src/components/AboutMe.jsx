@@ -16,6 +16,7 @@ import umb from './foto/umb.png';
 import toyota from './foto/toyota.png';
 import ahm from './foto/ahm.png';
 import mii from './foto/isuzu.png';
+import siber from './foto/siber.png';
 import upwork from './foto/upwork.png';
 import freelancer from './foto/freelancer.jpg';
 import projects from './foto/projects.png';
@@ -213,6 +214,13 @@ class TentangSaya extends Component {
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
                                 <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
+                            </Cell>
+                            <Cell col={4}>
+                                <img src={siber} height="80px" width="90px"></img>
+                            </Cell>
+                            <Cell col={8}>
+                                <h4 style={{ marginTop: '0px' }}>Sibernetik Integradata</h4>
+                                <h5 style={{ marginTop: '0px' }}>2020</h5>
                             </Cell>
                         </Grid>
                         {/* <hr style={{ borderTop: '3px solid #e22947' }}/>
