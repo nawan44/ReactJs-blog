@@ -19,7 +19,7 @@ class Beranda extends Component {
                         <img src={me} alt="foto" className="foto-img-bg" />
                         <br />
                         <div className="kutipan">
-                            <Badge className="badgekutipan" style={{ width: "auto" }}>
+                            <Badge style={{ background: "none", width: "auto" }}>
                                 <h4 className="kutipan" >
                                     "I'm a programmer. I like programming. And the best way I've found to have a positive impact on code is to write it.”
                             </h4>

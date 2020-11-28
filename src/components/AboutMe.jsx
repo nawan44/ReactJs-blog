@@ -16,7 +16,6 @@ import umb from './foto/umb.png';
 import toyota from './foto/toyota.png';
 import ahm from './foto/ahm.png';
 import mii from './foto/isuzu.png';
-import siber from './foto/siber.png';
 import upwork from './foto/upwork.png';
 import freelancer from './foto/freelancer.jpg';
 import projects from './foto/projects.png';
@@ -25,6 +24,7 @@ import aku from './foto/aku.jpg';
 import dqlab from './foto/dqlab.png';
 import telegram from './foto/telegram.png';
 import ggcampus from './foto/ggcampus.jpg';
+import siber from './foto/siber.png';
 import { Button, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -216,7 +216,7 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
                             </Cell>
                             <Cell col={4}>
-                                <img src={siber} height="80px" width="90px"></img>
+                                <img src={siber} height="80px" width="120px"></img>
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Sibernetik Integradata</h4>
