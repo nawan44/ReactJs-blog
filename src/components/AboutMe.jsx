@@ -5,28 +5,47 @@ import coffee from './foto/coffee.png';
 import music from './foto/music.png';
 import camera from './foto/camera.png';
 import travel from './foto/travel.png';
-import binar from './foto/binar.jpg';
-import dts from './foto/dts.png';
-import dicoding from './foto/dicoding.png';
-import imastudio from './foto/imastudio.png';
-import microsoft from './foto/microsoft.png';
-import cscu from './foto/cscu.png';
-import smk from './foto/smk.png';
-import umb from './foto/umb.png';
-import toyota from './foto/toyota.png';
-import ahm from './foto/ahm.png';
-import mii from './foto/isuzu.png';
+import binar from './foto/logo-binar.png';
+import dts from './foto/logo-dts.png';
+import dicoding from './foto/logo-dicoding.png';
+import imastudio from './foto/logo-ima.png';
+import microsoft from './foto/logo-microsoft.png';
+import cscu from './foto/logo-cscu.png';
+import smk from './foto/logo-smk.png';
+import umb from './foto/logo-mercubuana.png';
+import toyota from './foto/logo-toyota.png';
+import ahm from './foto/logo-ahm.png';
+import mii from './foto/logo-isuzu.png';
 import upwork from './foto/upwork.png';
 import freelancer from './foto/freelancer.jpg';
 import projects from './foto/projects.png';
-import atr from './foto/atr.png';
+import atr from './foto/logo-kemenATR.png';
 import aku from './foto/aku.jpg';
-import dqlab from './foto/dqlab.png';
+import dqlab from './foto/logo-dqlab.png';
 import telegram from './foto/telegram.png';
-import ggcampus from './foto/ggcampus.jpg';
-import siber from './foto/siber.png';
+import ggcampus from './foto/logo-ggs.png';
+import siber from './foto/logo-siber.png';
 import { Button, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
+
+const identity = {
+    margin: '50px 0 0 0',
+    fontFamily: 'Acme sans-serif',
+    fontSize: '30px'
+}
+const fotoImgBg = {
+    borderRadius: '50%',
+    width: '250px',
+    height: '250px',
+    margin: '20px 0 40px 0'
+}
+const fotohoby = {
+    width: '14px',
+    height: '14px',
+    marginRight: '5px'
+}
+const logo = {
+    width: '70%'
+}
 
 class TentangSaya extends Component {
     render() {
@@ -37,35 +56,35 @@ class TentangSaya extends Component {
                         <div className="content-list">
                             <br />
                             <br /> <br />
-                            <img src={aku} alt="foto" className="foto-img-bg" />
-                            <h4 style={{ marginTop: '50px' }} className="identity">Rachmat Gunawan</h4>
+                            <img src={aku} alt="foto" style={fotoImgBg} />
+                            <h4 style={identity}>Rachmat Gunawan</h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
                             <p>Address :<br />
                                 KH Ahmad Junaedi Street,
                                 Bekasi, West Java, Indonesia</p>
                             Contact :
-                            <p> <a href="https://t.me/Nawan44" target="blank" rel="nofollow"><img src={telegram} className="fotohoby" /><h5 className="contact">Telegram</h5></a></p>
+                            <p> <a href="https://t.me/Nawan44" target="blank" rel="nofollow"><img src={telegram} style={fotohoby} /><h5 className="contact">Telegram</h5></a></p>
 
                             <br /> <br />
                             <h4 className="hobi"> Hobbies  </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
-                            <p><img src={buku} className="fotohoby" />Reading</p>
-                            <p><img src={travel} className="fotohoby" />Traveling</p>
-                            <p><img src={coffee} className="fotohoby" />Coffee</p>
-                            <p><img src={music} className="fotohoby" />Listening to Music</p>
-                            <p><img src={camera} className="fotohoby" />Photography</p>
+                            <p><img src={buku} style={fotohoby} />Reading</p>
+                            <p><img src={travel} style={fotohoby} />Traveling</p>
+                            <p><img src={coffee} style={fotohoby} />Coffee</p>
+                            <p><img src={music} style={fotohoby} />Listening to Music</p>
+                            <p><img src={camera} style={fotohoby} />Photography</p>
                             <br />  <br />
                             <h4 style={{ marginTop: '20px' }} className="judulblog">Blog </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
-                            <p><img src={travel} className="fotohoby" />Travel</p>
-                            <p><img src={buku} className="fotohoby" />Paper</p>
+                            <p><img src={travel} style={fotohoby} />Travel</p>
+                            <p><img src={buku} style={fotohoby} />Paper</p>
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={9}>
                         <h3 className="judul">Formal Education</h3>
                         <Grid>
                             <Cell col={4}>
-                                <img src={smk} height="80px" width="90px"></img>
+                                <img src={smk} height="80px" width="90px" />
                             </Cell>
                             <Cell col={8}>
                                 <h5 style={{ marginTop: '0px' }}>Vocational Secondary Schools 34 Jakarta</h5>
@@ -75,7 +94,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://www.mercubuana.ac.id" target="blank" rel="nofollow">
-                                    <img src={umb} height="70px" width="100px"></img>
+                                    <img src={umb} height="70px" width="100px" />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -88,7 +107,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://digitalent.kominfo.go.id/" target="blank" rel="nofollow">
-                                    <img src={dts} height="100px" width="150px"></img>
+                                    <img src={dts} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -99,7 +118,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://www.dicoding.com" target="blank" rel="nofollow">
-                                    <img src={dicoding} height="100px" width="100px"></img>
+                                    <img src={dicoding} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -112,7 +131,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://binar.co.id/" target="blank" rel="nofollow">
-                                    <img src={binar} height="100px" width="100px"></img>
+                                    <img src={binar} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -124,7 +143,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://imastudio.co.id/" target="blank" rel="nofollow">
-                                    <img src={imastudio} height="100px" width="100px"></img>
+                                    <img src={imastudio} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -135,7 +154,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://www.dqlab.id/" target="blank">
-                                    <img src={dqlab} height="100px" width="100px"></img>
+                                    <img src={dqlab} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -147,7 +166,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://ggcampus.com/" target="blank" rel="nofollow">
-                                    <img src={ggcampus} height="100px" width="150px"></img>
+                                    <img src={ggcampus} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -160,7 +179,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://aspen.eccouncil.org/verify" target="blank" rel="nofollow">
-                                    <img src={cscu} height="70px" width="100px"></img>
+                                    <img src={cscu} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -172,7 +191,7 @@ class TentangSaya extends Component {
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://www.certiport.com/Portal/Pages/CredentialVerification.aspx" target="blank" rel="nofollow">
-                                    <img src={microsoft} height="70px" width="100px"></img>
+                                    <img src={microsoft} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
@@ -185,7 +204,7 @@ class TentangSaya extends Component {
                         <h3 className="judul">Experience</h3>
                         <Grid>
                             <Cell col={4}>
-                                <img src={toyota} height="70px" width="120px"></img>
+                                <img src={toyota} style={logo} />
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}> Toyota Motor Manufacturing Indonesia </h4>
@@ -193,7 +212,7 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}> 2008 - 2010</h5>
                             </Cell>
                             <Cell col={4}>
-                                <img src={ahm} height="50px" width="120px"></img>
+                                <img src={ahm} style={logo} />
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Astra Honda Motor</h4>
@@ -201,7 +220,7 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}> 2011 - 2012</h5>
                             </Cell>
                             <Cell col={4}>
-                                <img src={mii} height="50px" width="120px"></img>
+                                <img src={mii} style={logo} />
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Mesin Isuzu Indonesia</h4>
@@ -209,17 +228,19 @@ class TentangSaya extends Component {
                                 <h5 style={{ marginTop: '0px' }}> 2013 - 2015</h5>
                             </Cell>
                             <Cell col={4}>
-                                <img src={atr} height="80px" width="90px"></img>
+                                <img src={atr} style={logo} />
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
+                                <h5 style={{ marginTop: '0px' }}>Directorate General of Spatial Planning</h5>
                                 <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
                             </Cell>
                             <Cell col={4}>
-                                <img src={siber} height="80px" width="120px"></img>
+                                <img src={siber} style={logo} />
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Sibernetik Integradata</h4>
+                                <h5 style={{ marginTop: '0px' }}>Engineer</h5>
                                 <h5 style={{ marginTop: '0px' }}>2020</h5>
                             </Cell>
                         </Grid>
@@ -227,7 +248,7 @@ class TentangSaya extends Component {
                         <h3 className="judul">Freelance</h3>
                         <Grid>
                             <Cell col={4}>
-                                <img src={upwork} height="70px" width="120px"></img>
+                                <img src={upwork} style ={logo}/>
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px'}}> UPWORK </h4>
@@ -235,7 +256,7 @@ class TentangSaya extends Component {
                                     href="https://www.upwork.com/o/profiles/users/~01d4a8f99444120f1f/" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
                             <Cell col={4}>
-                                <img src={freelancer} height="50px" width="120px"></img>
+                                <img src={freelancer} style ={logo}/>
                             </Cell>
                             <Cell col={8}>
                             <h4 style={{ marginTop: '0px'}}> FREELANCER.COM </h4>
@@ -243,7 +264,7 @@ class TentangSaya extends Component {
                                     href="https://www.freelancer.com/u/nawan44" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
                             <Cell col={4}>
-                                <img src={projects} height="50px" width="120px"></img>
+                                <img src={projects} style ={logo}/>
                             </Cell>
                             <Cell col={8}>
                             <h4 style={{ marginTop: '0px'}}> PROJECTS.CO.ID </h4>

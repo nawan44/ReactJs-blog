@@ -14,6 +14,17 @@
     text-align: center;
 }
 
+.beranda-grid {
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%
+}
+
 .content-body {
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
@@ -49,10 +60,10 @@
     margin-bottom: 20px;
 }
 
-.identity {
+/* .identity {
     font-family: 'Acme', sans-serif;
     font-size: 30px;
-}
+} */
 
 .judulblog {
     font-family: 'Kulim Park', sans-serif;
@@ -123,21 +134,12 @@
     background: #61dafb;
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
-
     color: #00ff00;
 }
 
 .projects-grid {
     display: flex;
 }
-
-/* .foto-img-bg {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-} */
 
 /* 
 .bannerText {
@@ -174,15 +176,14 @@
     color: white;
     font-size: 5em;
     padding: 8px;
-
 }
 
+/* 
 .fotohoby {
     width: 14px;
     height: 14px;
     margin-right: 5px;
-
-}
+} */
 
 .linknav {
     color: black;
@@ -291,7 +292,7 @@
 
 }
 
-.beranda-grid1 {
+/* .beranda-grid1 {
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     text-align: center;
@@ -300,7 +301,7 @@
     margin: auto;
     width: 100%;
     height: 100%;
-}
+} */
 
 @media screen and (max-width:680px) {
     .kartu-nama {
@@ -391,12 +392,12 @@
         font-size: 40px;
     }
 
-    /* .beranda-grid {
+    .beranda-grid {
         margin: auto;
         width: 100%;
         height: 100%;
         position: relative;
-    } */
+    }
 
     .body {
         background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);

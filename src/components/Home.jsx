@@ -10,16 +10,16 @@ import youtube from './foto/youtube.png';
 import medium from './foto/medium.png';
 import { Badge } from 'reactstrap';
 
-const berandaGrid = {
-    background: '-webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF)',
-    background: 'linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF)',
-    textAlign: 'center',
-    top: '0',
-    left: '0',
-    margin: 'auto',
-    width: '100%',
-    height: '100%'
-}
+// const berandaGrid = {
+//     background: '-webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF)',
+//     background: 'linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF)',
+//     textAlign: 'center',
+//     top: '0',
+//     left: '0',
+//     margin: 'auto',
+//     width: '100%',
+//     height: '100%'
+// }
 
 const kutipan = {
 
@@ -64,7 +64,7 @@ class Beranda extends Component {
     render() {
         return (
             <div >
-                <Grid style={berandaGrid}>
+                <Grid className="beranda-grid">
                     <Cell col={12}>
                         <img src={me} alt="foto" style={fotoImgBg} />
                         <br />
