@@ -6,8 +6,6 @@ import Android from './components/foto/android.png';
 import Web from './components/foto/web.png';
 import Footer from './components/Footer';
 import {Link} from 'react-router-dom';
-
-import { Badge} from 'reactstrap';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
 class App extends Component {

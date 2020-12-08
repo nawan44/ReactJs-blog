@@ -50,7 +50,7 @@ const logo = {
 class TentangSaya extends Component {
     render() {
         return (
-            <div className="content-body">
+            <div className="beranda">
                 <Grid className="beranda-grid">
                     <Cell col={3}>
                         <div className="content-list">
@@ -112,7 +112,9 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Digital Talent Scholarship</h4>
+                                <h5 style={{ marginTop: '0px' }}>Build Web with Node JS</h5>
                                 <h5 style={{ marginTop: '0px' }}>HTML, CSS, Javascript</h5>
+
                             </Cell>
                         </Grid>
                         <Grid>
@@ -123,7 +125,7 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Dicoding Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}> Game Developer</h5>
+                                <h5 style={{ marginTop: '0px' }}>Mobile & Game Development</h5>
                                 <Button color="success" size="lg" style={{ marginTop: '5px' }}
                                     href="https://www.dicoding.com/users/84441" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
@@ -136,7 +138,9 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Binar Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Front End Developer</h5>
+                                <h5 style={{ marginTop: '0px' }}>Front End Engeineering</h5>
+                                <h5 style={{ marginTop: '0px' }}>ReactJs</h5>
+
                             </Cell>
                         </Grid>
 
@@ -148,7 +152,9 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>Indonesia Mobile-app Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Android Developer</h5>
+                                <h5 style={{ marginTop: '0px' }}>Android Development</h5>
+                                <h5 style={{ marginTop: '0px' }}>XML, Java</h5>
+
                             </Cell>
                         </Grid>
                         <Grid>
@@ -160,6 +166,7 @@ class TentangSaya extends Component {
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>DqLab Academy</h4>
                                 <h5 style={{ marginTop: '0px' }}>Data Scientist</h5>
+                                <h5 style={{ marginTop: '0px' }}>R, Python</h5>
                             </Cell>
                         </Grid>
 
@@ -171,7 +178,8 @@ class TentangSaya extends Component {
                             </Cell>
                             <Cell col={8}>
                                 <h4 style={{ marginTop: '0px' }}>GG Campus</h4>
-                                <h5 style={{ marginTop: '0px' }}>Unity 3D</h5>
+                                <h5 style={{ marginTop: '0px' }}>Game Development</h5>
+                                <h5 style={{ marginTop: '0px' }}>Unity 3D, C#</h5>
                             </Cell>
                         </Grid>
                         <hr style={{ borderTop: '3px solid #e22947' }} />

@@ -12,8 +12,8 @@ class Game extends Component {
         return (
             <div>
                 <Grid className="beranda-grid">
-                    <div className="karyaku">
-                        <div className="karya">
+                    <div className="container-porto">
+                        <div className="porto">
                             <iframe
                                 style={{
                                     height: "500px",
@@ -74,7 +74,7 @@ class Game extends Component {
                             </Button>
                         </div>
 
-                        <div className="karya">
+                        <div className="porto">
                             <iframe
                                 style={{
                                     height: "500px",
@@ -124,7 +124,7 @@ class Game extends Component {
                             </Button>
                         </div>
 
-                        <div className="karya">
+                        <div className="porto">
                             <img
                                 style={{
                                     height: "65%",
@@ -178,7 +178,7 @@ class Game extends Component {
                             </Button>
                         </div>
 
-                        <div className="karya">
+                        <div className="porto">
                             <img
                                 style={{
                                     height: "65%",

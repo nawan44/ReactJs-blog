@@ -14,34 +14,42 @@
     text-align: center;
 }
 
-.beranda-grid {
+.beranda {
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    /* text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh; */
+}
+
+.beranda-grid {
+    /* background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF); */
     text-align: center;
     top: 0;
     left: 0;
     margin: auto;
     width: 100%;
-    height: 100%
+    height: auto;
 }
 
-.content-body {
+.badgeHome {
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: Amaranth, sans- serif;
+    font-size: 25px;
+    border-radius: 10px;
 }
-
 
 .navlink {
     color: green;
-}
-
-.badgekutipan {
-    /* background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
-    Chrome 10-25, Safari 5.1-6 
-    background: linear-gradient(to right, #56ab2f, #a8e063);*/
-    padding: 10px;
-    width: 80%;
-    height: auto;
 }
 
 .contact {
@@ -53,37 +61,28 @@
     font-size: 25px;
 }
 
-.judul {
+/* .judul {
     font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 /* .identity {
     font-family: 'Acme', sans-serif;
     font-size: 30px;
 } */
 
-.judulblog {
+/* .judulblog {
     font-family: 'Kulim Park', sans-serif;
     font-size: 25px;
-}
+} */
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 40vmin;
     pointer-events: none;
 }
-
-
-/* .logo1 {
-    width: 70px;
-    height: 70px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 15px;
-} */
 
 .App-header {
     background-color: #282c34;
@@ -95,7 +94,6 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
-
 
 .App-link {
     color: #61dafb;
@@ -141,17 +139,18 @@
     display: flex;
 }
 
-/* 
+
 .bannerText {
-    background-image: linear-gradient(111.4deg, rgba(122, 192, 233, 1) 18.8%, rgba(4, 161, 255, 1) 100.2%);
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     opacity: 0.8;
     width: 75%;
-    height: 500px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 30px;
-} */
+}
 
 .bannerText h1 {
     font-size: 66px;
@@ -171,19 +170,11 @@
     padding: lem;
 }
 
-
-.socialLinks i {
+.socialLinks a i {
     color: white;
     font-size: 5em;
-    padding: 8px;
+    margin: 40px 60px;
 }
-
-/* 
-.fotohoby {
-    width: 14px;
-    height: 14px;
-    margin-right: 5px;
-} */
 
 .linknav {
     color: black;
@@ -202,36 +193,11 @@
     float: right;
 }
 
-.kartu-nama {
-    background: -webkit-linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
-    background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
-
-    margin: auto;
-    text-align: center;
-    margin-bottom: 70px;
-    height: 100%;
-    width: 75%;
-}
-
-.kartu-nama-i {
-
-    background: -webkit-linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
-    background: linear-gradient(to right, #355C7D, #6C5B7B, #C06C84);
-    margin-bottom: 70px;
-    height: 100%;
-    font-size: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    color: chartreuse;
-    text-align: center;
-
-}
-
 .kontak {
     width: 100%;
 }
 
-.karyaku {
+.container-porto {
     position: relative;
     height: 100%;
     width: 100%;
@@ -279,36 +245,13 @@
 }
 
 .app-footer {
-
     text-align: center;
     background: #61dafb;
     background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
     background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
-
 }
-
-.cv {
-    background-color: #282c34;
-
-}
-
-/* .beranda-grid1 {
-    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-    text-align: center;
-    top: 0;
-    left: 0;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-} */
 
 @media screen and (max-width:680px) {
-    .kartu-nama {
-        height: 100%;
-        width: 100%;
-    }
-
     .karya iframe {
         height: 200px;
         width: 80%;
@@ -326,26 +269,18 @@
         margin-bottom: 10px;
     }
 
-    .badgekutipan h4 {
-        width: 100%;
-        margin: 0;
-        color: #0072ff;
-        font-size: 10px;
-    }
-
-    .kartu-nama-i {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-
     .socialLinks {
         display: flex;
         justify-content: space-between;
         width: 50%;
         height: auto;
         margin: auto;
+    }
 
+    .socialLinks a i {
+        color: white;
+        font-size: 2em;
+        margin: 20px 30px;
     }
 
     .bannerText h5 {
@@ -364,7 +299,6 @@
         width: auto;
         float: none;
         color: darkslategrey;
-
     }
 
     .header-color {
@@ -395,14 +329,8 @@
     .beranda-grid {
         margin: auto;
         width: 100%;
-        height: 100%;
+        height: auto;
         position: relative;
-    }
-
-    .body {
-        background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-        background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
-
     }
 
     .lisk {
@@ -410,7 +338,6 @@
     }
 
     .lisk h5 {
-
         font-size: 10px;
     }
 
@@ -419,7 +346,5 @@
         background: #61dafb;
         background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
         background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
-
     }
-
 }

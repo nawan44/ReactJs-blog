@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid } from 'react-mdl';
 import { Button, NavLink } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import garage from './foto/garage.png'
 import web1 from './foto/web1.png';
 import rsmart from './foto/rsmart.png';
@@ -12,8 +11,8 @@ class Website extends Component {
         return (
             <div>
                 <Grid className="beranda-grid">
-                    <div className="karyaku">
-                        <div className="karya">
+                    <div className="container-porto">
+                        <div className="porto">
                             <img style={{ height: "65%", width: "80%" }}
                                 src={rsmart} />
                             <h2 >Company Profile</h2>
@@ -39,7 +38,7 @@ class Website extends Component {
                                 <NavLink className="buttonPlaystore" style={{ margin: "0px" }} href="http://rsmartcomm.com" target="blank" rel="nofollow">
                                     Website</NavLink></Button>
                         </div>
-                        <div className="karya">
+                        <div className="porto">
                             <img src={garage}></img>
                             <h2  > GarageLife.com</h2>
                             <div className="lisk">
@@ -63,7 +62,7 @@ class Website extends Component {
                                 <NavLink className="buttonGithub" style={{ margin: "0px" }} href="https://github.com/nawan44/Show-Case-Binar-Academy-Garage" target="blank" rel="nofollow">
                                     Github</NavLink></Button>
                         </div>
-                        <div className="karya">
+                        <div className="porto">
                             <img style={{ height: "65%", width: "80%" }}
                                 src={web1} />
                             <h2 >Website e-commerce</h2>
@@ -87,13 +86,13 @@ class Website extends Component {
 
 
                         {/*
-                         <div className="karya">
+                         <div className="porto">
                             <img src={garage}></img>
                             <h2  >Web 2</h2>
                             <p><p> </p></p>
                             <Button block size="lg" style={{marginTop:'20px'}}>Git</Button>
                         </div>
-                         <div className="karya">
+                         <div className="porto">
                             <img src="#"></img>
                             <h2  >RSMARTCOMM</h2>
                             <p><p> </p></p>
