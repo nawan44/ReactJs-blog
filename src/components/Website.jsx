@@ -97,11 +97,11 @@ class Website extends Component {
                             <h2  >RSMARTCOMM</h2>
                             <p><p> </p></p>
                             <Button style={{ padding: "0px"}} block>
-                                <NavLink className="buttonGame"
+                                <NavLink className="porto-button"
                                     href="https://gitlab.com/BSD-Bootcamp/batch-3/team-a/frontend" target="blank" rel="nofollow">Git</NavLink>
                             </Button>
                             <Button style={{ padding: "0px"}} block>
-                                <NavLink className="buttonGame"
+                                <NavLink className="porto-button"
                                     href="https://rsmartcomm.com/" target="blank" rel="nofollow">RSMARTCOMM</NavLink>
                             </Button>
                         </div>

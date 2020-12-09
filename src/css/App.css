@@ -125,17 +125,21 @@
     color: #61dafb;
 }
 
-.buttonGame {
-    color: aquamarine;
+.porto-button-git {
+    color: blue;
     font-family: 'Jockey One', sans-serif;
     font-size: 30px;
     padding: 0;
+    background-color: aquamarine;
+    border-radius: 5px;
 }
 
-.buttonPlaystore {
-    color: lawngreen;
+.porto-button-demo {
+    color: aquamarine;
+    font-size: 30px;
+    padding: 0;
+    background-color: blue;
     font-family: 'Acme', sans-serif;
-    font-size: 20px;
 }
 
 .buttonGithub {
@@ -209,31 +213,34 @@
 
 
 .container-porto {
-    position: relative;
-    height: 100%;
+    height: auto;
     width: 100%;
+    text-align: center;
+    margin: 0 auto;
     margin-bottom: 50px;
-    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
-    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background-color: red;
+    /* background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF); */
 }
 
-.karya {
-    background: -webkit-linear-gradient(to right, #076585, #FFF);
-    background: linear-gradient(to right, #076585, #FFF);
-    width: 80%;
-    height: 100%;
-    margin: auto;
+.porto {
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-.karya img {
+.porto img {
     width: 60%;
     margin-top: 80px;
     margin-bottom: 30px;
 }
 
-.karya h2 {
+.porto h2 {
     font-family: 'Acme', sans-serif;
     font-size: 40px;
     color: #571B7E;
@@ -242,21 +249,39 @@
     font-weight: 800;
 }
 
+.porto-desc-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 
-.lisk {
-    background: -webkit-linear-gradient(to right, #076585, #FFF);
-    background: linear-gradient(to right, #076585, #FFF);
-    color: black;
-    width: 60%;
-    height: 100%;
-    margin: auto;
 }
 
-.lisk h5 {
+
+.porto-desc {
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right, #2980B9, #6DD5FA), #FFFFFF;
+    color: black;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.porto-desc h5 {
     color: #282c34;
 }
 
-.lisk ul {
+.porto-desc ul {
     float: left;
     margin-right: 15px;
 }
@@ -290,6 +315,8 @@
         /* background-color: #00ff00; */
         margin: 0 auto;
         text-align: center;
+
+
         margin-top: 15px;
         margin-bottom: 10px;
     }
@@ -311,7 +338,7 @@
         margin-top: 10px;
     }
 
-    .karya iframe {
+    .porto iframe {
         height: 200px;
         width: 80%;
     }
@@ -373,11 +400,11 @@
         position: relative;
     }
 
-    .lisk {
+    .porto-desc {
         font-size: 12px;
     }
 
-    .lisk h5 {
+    .porto-desc h5 {
         font-size: 10px;
     }
 
