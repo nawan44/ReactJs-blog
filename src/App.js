@@ -4,7 +4,7 @@ import Utama from './components/Utama';
 import Game from './components/foto/game.png';
 import Android from './components/foto/android.png';
 import Web from './components/foto/web.png';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import {Link} from 'react-router-dom';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
@@ -43,7 +43,7 @@ class App extends Component {
                         <div className="page-content"/>
                         <Utama/>
                     </Content>
-                    <Footer/>
+                    {/* <Footer/> */}
                 </Layout>
             </div>
         );

@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import buku from './foto/buku.png';
-import coffee from './foto/coffee.png';
-import music from './foto/music.png';
-import camera from './foto/camera.png';
-import travel from './foto/travel.png';
 import binar from './foto/logo-binar.png';
 import dts from './foto/logo-dts.png';
 import dicoding from './foto/logo-dicoding.png';
@@ -16,19 +11,20 @@ import umb from './foto/logo-mercubuana.png';
 import toyota from './foto/logo-toyota.png';
 import ahm from './foto/logo-ahm.png';
 import mii from './foto/logo-isuzu.png';
-import upwork from './foto/upwork.png';
-import freelancer from './foto/freelancer.jpg';
-import projects from './foto/projects.png';
+// import upwork from './foto/upwork.png';
+// import freelancer from './foto/freelancer.jpg';
+// import projects from './foto/projects.png';
 import atr from './foto/logo-kemenATR.png';
 import aku from './foto/aku.jpg';
 import dqlab from './foto/logo-dqlab.png';
-import telegram from './foto/telegram.png';
 import ggcampus from './foto/logo-ggs.png';
 import siber from './foto/logo-siber.png';
 import { Button, NavLink } from 'reactstrap';
+import Footer from './Footer';
+
 
 const identity = {
-    margin: '50px 0 0 0',
+    margin: '50px 0 30px 0',
     fontFamily: 'Acme sans-serif',
     fontSize: '30px'
 }
@@ -52,35 +48,41 @@ class TentangSaya extends Component {
         return (
             <div className="beranda">
                 <Grid className="beranda-grid">
-                    <Cell col={3}>
+                    <div className="beranda-grid-left">
                         <div className="content-list">
                             <br />
                             <br /> <br />
                             <img src={aku} alt="foto" style={fotoImgBg} />
                             <h4 style={identity}>Rachmat Gunawan</h4>
+                            <h5>Learn new things for continuous improvement and share to have a social impact.</h5>
+                            <h4 className="hobi">Contact :</h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
                             <p>Address :<br />
-                                KH Ahmad Junaedi Street,
-                                Bekasi, West Java, Indonesia</p>
-                            Contact :
-                            <p> <a href="https://t.me/Nawan44" target="blank" rel="nofollow"><img src={telegram} style={fotohoby} /><h5 className="contact">Telegram</h5></a></p>
+                                <i class="fa fa-map-marker" > Bekasi, West Java, Indonesia</i> </p>
+                            <br />
+                            <p> Telegram : <br />
+                                <i class="fa fa-telegram" ><a href="https://t.me/Nawan44" target="blank" rel="nofollow"> @Nawan44</a></i > </p>
+                            <br />
+                            <p> E-mail : <br />
+
+                                <i class="fa fa-envelope"><a href="mailto:rachmat.d.gunawan@gmail.com" target="blank" rel="nofollow"> rachmat.d.gunawan@gmail.com</a></i > </p>
 
                             <br /> <br />
                             <h4 className="hobi"> Hobbies  </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
-                            <p><img src={buku} style={fotohoby} />Reading</p>
-                            <p><img src={travel} style={fotohoby} />Traveling</p>
-                            <p><img src={coffee} style={fotohoby} />Coffee</p>
-                            <p><img src={music} style={fotohoby} />Listening to Music</p>
-                            <p><img src={camera} style={fotohoby} />Photography</p>
+                            <i class="fa fa-book" > Reading </i>  <br />
+                            <i class="fa fa-plane" > Traveling</i> <br />
+                            <i class="fa fa-coffee" > Coffee</i> <br />
+                            <i class="fa fa-headphones" > Listening Music</i> <br />
+                            <i class="fa fa-camera" > Photography</i> <br />
                             <br />  <br />
-                            <h4 style={{ marginTop: '20px' }} className="judulblog">Blog </h4>
+                            {/* <h4 style={{ marginTop: '20px' }} className="judulblog">Blog </h4>
                             <hr style={{ borderTop: '3px solid #833fb2' }} />
                             <p><img src={travel} style={fotohoby} />Travel</p>
-                            <p><img src={buku} style={fotohoby} />Paper</p>
+                            <p><img src={buku} style={fotohoby} />Paper</p> */}
                         </div>
-                    </Cell>
-                    <Cell className="resume-right-col" col={9}>
+                    </div>
+                    <div className="beranda-grid-right" >
                         <h3 className="judul">Formal Education</h3>
                         <Grid>
                             <Cell col={4}>
@@ -114,7 +116,6 @@ class TentangSaya extends Component {
                                 <h4 style={{ marginTop: '0px' }}>Digital Talent Scholarship</h4>
                                 <h5 style={{ marginTop: '0px' }}>Build Web with Node JS</h5>
                                 <h5 style={{ marginTop: '0px' }}>HTML, CSS, Javascript</h5>
-
                             </Cell>
                         </Grid>
                         <Grid>
@@ -281,8 +282,10 @@ class TentangSaya extends Component {
                             </Cell>
                            
                         </Grid> */}
-                    </Cell>
+                    </div>
                 </Grid>
+                <Footer />
+
             </div>
         )
     }
