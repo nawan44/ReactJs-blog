@@ -88,7 +88,7 @@
     pointer-events: none;
 }
 
-.App-header {
+/* .App-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -97,7 +97,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
+} */
 
 .App-link {
     color: #61dafb;
@@ -167,23 +167,6 @@
     color: white;
     font-size: 5em;
     margin: 40px 60px;
-}
-
-.linknav {
-    color: black;
-    font-style: Bold;
-    font-size: 12px;
-}
-
-.linknav h5 {
-    float: left;
-    color: #00ff00;
-}
-
-.logonav {
-    width: 20px;
-    height: 20px;
-    float: right;
 }
 
 .kontak {

@@ -52,7 +52,7 @@ class Beranda extends Component {
                                     <i class="fa fa-stack-overflow" > </i>
                                 </a>
                                 <a href="https://www.youtube.com/channel/UCo26abxyKLHgGQmb9bAMP6Q?disable_polymer=true" target="blank" rel="nofollow">
-                                    <i class="fa fa-youtube-play" > </i>
+                                    <i class="fa fa-youtube-play"  > </i>
                                 </a>
                                 <a href="https://medium.com/@nawan44" target="blank" rel="nofollow">
                                     <i class="fa fa-medium" > </i>

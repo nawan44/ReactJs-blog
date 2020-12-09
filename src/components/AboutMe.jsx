@@ -34,16 +34,11 @@ const fotoImgBg = {
     height: '250px',
     margin: '20px 0 40px 0'
 }
-const fotohoby = {
-    width: '14px',
-    height: '14px',
-    marginRight: '5px'
-}
 const logo = {
     width: '70%'
 }
 const berandaGridLeftHr = {
-    borderTop: '3px solid #833fb2'
+    borderTop: '3px solid #833fb2',
 }
 
 const berandaGridRightHr = {
