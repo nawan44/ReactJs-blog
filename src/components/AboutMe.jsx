@@ -42,6 +42,24 @@ const fotohoby = {
 const logo = {
     width: '70%'
 }
+const berandaGridLeftHr = {
+    borderTop: '3px solid #833fb2'
+}
+
+const berandaGridRightHr = {
+    borderTop: '3px solid #833fb2'
+}
+const judul = {
+    fontFamily: 'Sawarabi Mincho sans-serif',
+    fontSize: '40px',
+    margin: '20px 0 20px 0'
+}
+const berandaRightH = {
+    marginTop: '0px'
+}
+const contact = {
+    color: 'black'
+}
 
 class TentangSaya extends Component {
     render() {
@@ -56,20 +74,18 @@ class TentangSaya extends Component {
                             <h4 style={identity}>Rachmat Gunawan</h4>
                             <h5>Learn new things for continuous improvement and share to have a social impact.</h5>
                             <h4 className="hobi">Contact :</h4>
-                            <hr style={{ borderTop: '3px solid #833fb2' }} />
+                            <hr style={berandaGridLeftHr} />
                             <p>Address :<br />
                                 <i class="fa fa-map-marker" > Bekasi, West Java, Indonesia</i> </p>
                             <br />
                             <p> Telegram : <br />
-                                <i class="fa fa-telegram" ><a href="https://t.me/Nawan44" target="blank" rel="nofollow"> @Nawan44</a></i > </p>
+                                <i class="fa fa-telegram" ><a href="https://t.me/Nawan44" target="blank" rel="nofollow" style={contact}> @Nawan44</a></i > </p>
                             <br />
                             <p> E-mail : <br />
-
-                                <i class="fa fa-envelope"><a href="mailto:rachmat.d.gunawan@gmail.com" target="blank" rel="nofollow"> rachmat.d.gunawan@gmail.com</a></i > </p>
-
+                                <i class="fa fa-envelope"><a href="mailto:rachmat.d.gunawan@gmail.com" target="blank" rel="nofollow" style={contact}> rachmat.d.gunawan@gmail.com</a></i > </p>
                             <br /> <br />
                             <h4 className="hobi"> Hobbies  </h4>
-                            <hr style={{ borderTop: '3px solid #833fb2' }} />
+                            <hr style={berandaGridLeftHr} />
                             <i class="fa fa-book" > Reading </i>  <br />
                             <i class="fa fa-plane" > Traveling</i> <br />
                             <i class="fa fa-coffee" > Coffee</i> <br />
@@ -83,29 +99,29 @@ class TentangSaya extends Component {
                         </div>
                     </div>
                     <div className="beranda-grid-right" >
-                        <h3 className="judul">Formal Education</h3>
+                        <h3 style={judul}>Formal Education</h3>
                         <Grid>
                             <Cell col={4}>
-                                <img src={smk} height="80px" width="90px" />
+                                <img src={smk} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h5 style={{ marginTop: '0px' }}>Vocational Secondary Schools 34 Jakarta</h5>
-                                <h5 style={{ marginTop: '0px' }}>Automotive Mechanical Engineering</h5>
+                                <h5 style={berandaRightH}>Vocational Secondary Schools 34 Jakarta</h5>
+                                <h5 style={berandaRightH}>Automotive Mechanical Engineering</h5>
                             </Cell>
                         </Grid>
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://www.mercubuana.ac.id" target="blank" rel="nofollow">
-                                    <img src={umb} height="70px" width="100px" />
+                                    <img src={umb} style={logo} />
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h5 style={{ marginTop: '0px' }}>University Of Mercu Buana</h5>
-                                <h5 style={{ marginTop: '0px' }}>Bachelor's Degree of Informatics</h5>
+                                <h5 style={berandaRightH}>University Of Mercu Buana</h5>
+                                <h5 style={berandaRightH}>Bachelor's Degree of Informatics</h5>
                             </Cell>
                         </Grid>
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
-                        <h3 className="judul">Non-Formal Education</h3>
+                        <hr style={berandaGridRightHr} />
+                        <h3 style={judul}>Non-Formal Education</h3>
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://digitalent.kominfo.go.id/" target="blank" rel="nofollow">
@@ -113,9 +129,9 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Digital Talent Scholarship</h4>
-                                <h5 style={{ marginTop: '0px' }}>Build Web with Node JS</h5>
-                                <h5 style={{ marginTop: '0px' }}>HTML, CSS, Javascript</h5>
+                                <h4 style={berandaRightH}>Digital Talent Scholarship</h4>
+                                <h5 style={berandaRightH}>Build Web with Node JS</h5>
+                                <h5 style={berandaRightH}>HTML, CSS, Javascript</h5>
                             </Cell>
                         </Grid>
                         <Grid>
@@ -125,8 +141,8 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Dicoding Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Mobile & Game Development</h5>
+                                <h4 style={berandaRightH}>Dicoding Academy</h4>
+                                <h5 style={berandaRightH}>Mobile & Game Development</h5>
                                 <Button color="success" size="lg" style={{ marginTop: '5px' }}
                                     href="https://www.dicoding.com/users/84441" target="blank" rel="nofollow">Developer Page</Button>
                             </Cell>
@@ -138,9 +154,9 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Binar Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Front End Engeineering</h5>
-                                <h5 style={{ marginTop: '0px' }}>ReactJs</h5>
+                                <h4 style={berandaRightH}>Binar Academy</h4>
+                                <h5 style={berandaRightH}>Front End Engeineering</h5>
+                                <h5 style={berandaRightH}>ReactJs</h5>
 
                             </Cell>
                         </Grid>
@@ -152,9 +168,9 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Indonesia Mobile-app Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Android Development</h5>
-                                <h5 style={{ marginTop: '0px' }}>XML, Java</h5>
+                                <h4 style={berandaRightH}>Indonesia Mobile-app Academy</h4>
+                                <h5 style={berandaRightH}>Android Development</h5>
+                                <h5 style={berandaRightH}>XML, Java</h5>
 
                             </Cell>
                         </Grid>
@@ -165,9 +181,9 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>DqLab Academy</h4>
-                                <h5 style={{ marginTop: '0px' }}>Data Scientist</h5>
-                                <h5 style={{ marginTop: '0px' }}>R, Python</h5>
+                                <h4 style={berandaRightH}>DqLab Academy</h4>
+                                <h5 style={berandaRightH}>Data Scientist</h5>
+                                <h5 style={berandaRightH}>R, Python</h5>
                             </Cell>
                         </Grid>
 
@@ -178,13 +194,13 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>GG Campus</h4>
-                                <h5 style={{ marginTop: '0px' }}>Game Development</h5>
-                                <h5 style={{ marginTop: '0px' }}>Unity 3D, C#</h5>
+                                <h4 style={berandaRightH}>GG Campus</h4>
+                                <h5 style={berandaRightH}>Game Development</h5>
+                                <h5 style={berandaRightH}>Unity 3D, C#</h5>
                             </Cell>
                         </Grid>
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
-                        <h3 className="judul">Certifications</h3>
+                        <hr style={berandaGridRightHr} />
+                        <h3 style={judul}>Certifications</h3>
                         <Grid>
                             <Cell col={4}>
                                 <NavLink href="https://aspen.eccouncil.org/verify" target="blank" rel="nofollow">
@@ -192,9 +208,9 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>EC-Council</h4>
-                                <h5 style={{ marginTop: '0px' }}>Certified Secure Computer User v2</h5>
-                                <h5 style={{ marginTop: '0px' }}>ECC78814255628</h5>
+                                <h4 style={berandaRightH}>EC-Council</h4>
+                                <h5 style={berandaRightH}>Certified Secure Computer User v2</h5>
+                                <h5 style={berandaRightH}>ECC78814255628</h5>
                             </Cell>
                         </Grid>
                         <Grid>
@@ -204,56 +220,62 @@ class TentangSaya extends Component {
                                 </NavLink>
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Microsoft</h4>
-                                <h5 style={{ marginTop: '0px' }}>Microsoft Technology Associate - Database Administration Fundamentals</h5>
-                                <h5 style={{ marginTop: '0px' }}>EoCo - XLRq</h5>
+                                <h4 style={berandaRightH}>Microsoft</h4>
+                                <h5 style={berandaRightH}>Microsoft Technology Associate - Database Administration Fundamentals</h5>
+                                <h5 style={berandaRightH}>EoCo - XLRq</h5>
                             </Cell>
                         </Grid>
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
-                        <h3 className="judul">Experience</h3>
+                        <hr style={berandaGridRightHr} />
+                        <h3 style={judul}>Experience</h3>
                         <Grid>
                             <Cell col={4}>
                                 <img src={toyota} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}> Toyota Motor Manufacturing Indonesia </h4>
-                                <h5 style={{ marginTop: '0px' }}> Press & Welding Division</h5>
-                                <h5 style={{ marginTop: '0px' }}> 2008 - 2010</h5>
+                                <h4 style={berandaRightH}> Toyota Motor Manufacturing Indonesia </h4>
+                                <h5 style={berandaRightH}> Press & Welding Division</h5>
+                                <h6 style={berandaRightH}> August 2008 - August 2010</h6>
+                                <h5 style={berandaRightH}>Operator Press Machine</h5>
                             </Cell>
                             <Cell col={4}>
                                 <img src={ahm} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Astra Honda Motor</h4>
-                                <h5 style={{ marginTop: '0px' }}> Die Casting Department</h5>
-                                <h5 style={{ marginTop: '0px' }}> 2011 - 2012</h5>
+                                <h4 style={berandaRightH}>Astra Honda Motor</h4>
+                                <h5 style={berandaRightH}> Die Casting Department</h5>
+                                <h6 style={berandaRightH}> February 2011 - December 2012</h6>
+                                <h5 style={berandaRightH}>Operator Die Cast Machine</h5>
+
                             </Cell>
                             <Cell col={4}>
                                 <img src={mii} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Mesin Isuzu Indonesia</h4>
-                                <h5 style={{ marginTop: '0px' }}> Assembly Department</h5>
-                                <h5 style={{ marginTop: '0px' }}> 2013 - 2015</h5>
+                                <h4 style={berandaRightH}>Mesin Isuzu Indonesia</h4>
+                                <h5 style={berandaRightH}> Assembly Department</h5>
+                                <h6 style={berandaRightH}> February 2013 - December 2015</h6>
+                                <h5 style={berandaRightH}>Quality Control & Operator Production</h5>
                             </Cell>
                             <Cell col={4}>
                                 <img src={atr} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
-                                <h5 style={{ marginTop: '0px' }}>Directorate General of Spatial Planning</h5>
-                                <h5 style={{ marginTop: '0px' }}>2016 - 2020</h5>
+                                <h4 style={berandaRightH}>Ministry of Agrarian and Spatial Planning / National Land Agency</h4>
+                                <h5 style={berandaRightH}>Directorate General of Spatial Planning</h5>
+                                <h6 style={berandaRightH}> March 2016 - March 2020</h6>
+                                <h5 style={berandaRightH}>Administrative & Financial Staff</h5>
                             </Cell>
                             <Cell col={4}>
                                 <img src={siber} style={logo} />
                             </Cell>
                             <Cell col={8}>
-                                <h4 style={{ marginTop: '0px' }}>Sibernetik Integradata</h4>
-                                <h5 style={{ marginTop: '0px' }}>Engineer</h5>
-                                <h5 style={{ marginTop: '0px' }}>2020</h5>
+                                <h4 style={berandaRightH}>Sibernetik Integradata</h4>
+                                <h5 style={berandaRightH}>Confluent</h5>
+                                <h6 style={berandaRightH}> July 2020 - November 2020</h6>
+                                <h5 style={berandaRightH}>Software Engineer</h5>
                             </Cell>
                         </Grid>
-                        {/* <hr style={{ borderTop: '3px solid #e22947' }}/>
+                        {/* <hr style={berandaGridRightHr}/>
                         <h3 className="judul">Freelance</h3>
                         <Grid>
                             <Cell col={4}>
