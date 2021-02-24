@@ -10,7 +10,10 @@ import Footer from './Footer';
 const buttonPorto = {
     padding: '0px'
 }
-
+const frameYoutube = {
+    height: '500px',
+    width: '80%'
+}
 const Website = () => {
     return (
         <div className="beranda">
@@ -35,7 +38,7 @@ const Website = () => {
                                         <li>Javascript </li>
                                         <li>JQUERY </li>
                                         <li>Bootstrap </li>
-                                        <li>PHP </li>
+                                        <li>React </li>
                                     </ul>
                                 </h5>
                             </div>
@@ -46,6 +49,39 @@ const Website = () => {
                             <br ></br>
                             <Button block="block" style={buttonPorto}>
                                 <NavLink className="porto-button-demo" href="http:rsmartcomm.com" target="blank" rel="nofollow">
+                                    Website</NavLink></Button>
+                        </div>
+                        <div className="porto">
+                            <h2 >Covid19 Information</h2>
+
+                            <iframe
+                             style={frameYoutube}
+                             src="https://lucid-cori-090684.netlify.app/"
+                            >
+
+                            </iframe>
+                            <div className="lisk">
+                                <h4>This web project was built with </h4>
+                                <p></p><h5>
+                                    <ul>
+                                        <li>HTML </li>
+                                        <li>CSS </li>
+                                        <li>Javascript </li>
+                                        <li>JQUERY </li>
+                                        <li>Bootstrap </li>
+                                        <li>Node </li>
+                                        <li>NPM </li>
+
+                                    </ul>
+                                </h5>
+                            </div>
+                            <p><p></p></p>
+                            <Button block="block" style={buttonPorto}>
+                                <NavLink className="porto-button-git" href="https://github.com/nawan44/Submission-Dicoding-FrontEnd" target="blank" rel="nofollow">
+                                    Github</NavLink></Button>
+                            <br ></br>
+                            <Button block="block" style={buttonPorto}>
+                                <NavLink className="porto-button-demo" href="https://lucid-cori-090684.netlify.app/" target="blank" rel="nofollow">
                                     Website</NavLink></Button>
                         </div>
                         <div className="porto">
