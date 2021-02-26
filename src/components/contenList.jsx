@@ -1,5 +1,5 @@
 import React from 'react';
-import aku from './foto/aku.jpg';
+import aku from '../assets/logo/aku.jpg';
 
 
 const identity = {

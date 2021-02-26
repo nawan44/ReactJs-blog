@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Grid } from 'react-mdl';
 import { Button, NavLink } from 'reactstrap';
-import garage from './foto/garage.png'
-import web1 from './foto/web1.png';
-import rsmart from './foto/rsmart.png';
+import garage from '../assets/logo/garage.png'
+import web1 from '../assets/logo/web1.png';
+import rsmart from '../assets/logo/rsmart.png';
 import ContentList from './contenList';
 import Footer from './Footer';
 

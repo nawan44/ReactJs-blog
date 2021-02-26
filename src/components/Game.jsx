@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid } from 'react-mdl';
-import ar from './foto/ar.png';
-import vr from './foto/vr.png';
+import ar from '../assets/logo/ar.png';
+import vr from '../assets/logo/vr.png';
 import ContentList from './contenList';
 import { Button, NavLink } from 'reactstrap';
 import Footer from './Footer';

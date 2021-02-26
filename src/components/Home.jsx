@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import me from './foto/sea.JPG';
+import me from '../assets/logo/sea.JPG';
 import Footer from './Footer';
 
 
