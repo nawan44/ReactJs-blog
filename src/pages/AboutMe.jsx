@@ -19,8 +19,8 @@ import dqlab from '../assets/logo/logo-dqlab.png';
 import ggcampus from '../assets/logo/logo-ggs.png';
 import siber from '../assets/logo/logo-siber.png';
 import { Button, NavLink } from 'reactstrap';
-import Footer from './Footer';
-import ContentList from './contenList';
+import Footer from '../components/Footer';
+import ContentList from '../components/contenList';
 
 
 

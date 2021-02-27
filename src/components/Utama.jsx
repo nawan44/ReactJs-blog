@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
 import Home from './Home';
-import AboutMe from './AboutMe';
-import Game from './Game';
-import Website from './Website';
-import Apps from './Android';
-import MyProject from './MyProject';
+import AboutMe from '../pages/AboutMe';
+import Game from '../pages/Game';
+import Website from '../pages/Website';
+import Apps from '../pages/Android';
+import MyProject from '../pages/MyProject';
 
 const Utama = () => (
     <Switch>

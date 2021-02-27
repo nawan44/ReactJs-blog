@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Grid } from 'react-mdl';
 import ar from '../assets/logo/ar.png';
 import vr from '../assets/logo/vr.png';
-import ContentList from './contenList';
+import ContentList from '../components/contenList';
 import { Button, NavLink } from 'reactstrap';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 
 const frameYoutube = {

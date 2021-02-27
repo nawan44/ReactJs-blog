@@ -4,8 +4,8 @@ import { Button, NavLink } from 'reactstrap';
 import garage from '../assets/logo/garage.png'
 import web1 from '../assets/logo/web1.png';
 import rsmart from '../assets/logo/rsmart.png';
-import ContentList from './contenList';
-import Footer from './Footer';
+import ContentList from '../components/contenList';
+import Footer from '../components/Footer';
 
 const buttonPorto = {
     padding: '0px'
