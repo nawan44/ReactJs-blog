@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App.css';
-import Utama from './components/Utama';
+import Routes from './Route';
 import { Link } from 'react-router-dom';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
@@ -46,7 +46,7 @@ const App = () => {
                 </Drawer>
                 <Content>
                     {/* <div className="page-content"/> */}
-                    <Utama />
+                    <Routes />
                 </Content>
                 {/* <Footer/> */}
             </Layout>
