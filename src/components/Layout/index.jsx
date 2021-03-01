@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App.css';
-import Routes from './Route';
+import Routes from '../../Route';
 import { Link } from 'react-router-dom';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
@@ -14,7 +14,7 @@ const navContent = {
     color: "#fff",
     fontSize: "30px"
 }
-const App = () => {
+const Layouting = () => {
     return (
         <div className="demo-big-content">
             <Layout>
@@ -28,7 +28,6 @@ const App = () => {
                     </Navigation>
                 </Header>
                 <Drawer title="Portofolio" style={navContent}>
-
                     <Navigation >
                         <Link style={navIcon} to="/Home">Home  </Link>
                         <Link style={navIcon} to="/AboutMe">About Me</Link>
@@ -54,4 +53,4 @@ const App = () => {
     );
 }
 
-export default App;
+export default Layouting;
