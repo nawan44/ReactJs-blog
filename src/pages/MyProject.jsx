@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-mdl';
-import { NavLink, Button } from 'reactstrap';
+import { Container, NavLink, Button } from 'reactstrap';
 import kalkulator from '../assets/logo/kalkulator.png';
 import recycle from '../assets/logo/recycleview.png';
 import { Link } from 'react-router-dom';
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Apps = () => {
     return (
         <div>
-            <Grid className="beranda-grid">
+            <Container fluid className="beranda-grid">
                 <div className="container-porto">
                     <div className="porto">
                         <img src={recycle}></img>
@@ -39,7 +38,7 @@ const Apps = () => {
                                 Playstore</NavLink></Button>
                     </div>
                 </div>
-            </Grid>
+            </Container>
         </div>
     )
 }

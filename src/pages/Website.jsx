@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-mdl';
-import { Button, NavLink } from 'reactstrap';
+import { Container, Button, NavLink } from 'reactstrap';
 import garage from '../assets/logo/garage.png'
 import web1 from '../assets/logo/web1.png';
 import rsmart from '../assets/logo/rsmart.png';
@@ -17,7 +16,7 @@ const frameYoutube = {
 const Website = () => {
     return (
         <div className="beranda">
-            <Grid className="beranda-grid">
+            <Container fluid className="beranda-grid">
                 <div className="beranda-grid-left">
                     <ContentList />
                 </div>
@@ -133,7 +132,7 @@ const Website = () => {
                         </div>
                     </div>
                 </div>
-            </Grid>
+            </Container>
             <Footer />
         </div>
     )

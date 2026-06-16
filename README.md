@@ -12,7 +12,6 @@ This website contains personal portfolios that were built using
  <li>bootstrap: v 4.3.1</li>
  <li>react: v 16.12.0</li>
  <li>react-dom: v 16.12.0</li>
- <li>react-mdl: v 1.11.0</li>
  <li>react-router-dom: v 4.3.1</li>
  <li>react-scripts: v 2.1.8</li>
  <li>reactstrap: v 8.2.0</li>

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid } from 'react-mdl';
-import { NavLink, Button } from 'reactstrap';
+import { Container, NavLink, Button } from 'reactstrap';
 import Footer from '../components/Footer';
 import kalkulator from '../assets/logo/kalkulator.png';
 import recycle from '../assets/logo/recycleview.png';
@@ -13,7 +12,7 @@ const buttonPorto = {
 const Apps = () => {
     return (
         <div className="beranda">
-            <Grid className="beranda-grid">
+            <Container fluid className="beranda-grid">
                 <div className="beranda-grid-left">
                     <ContentList />
                 </div>
@@ -58,7 +57,7 @@ const Apps = () => {
                         </div>
                     </div>
                 </div>
-            </Grid>
+            </Container>
             <Footer />
         </div>
 

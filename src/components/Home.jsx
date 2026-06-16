@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React from 'react';
+import { Container } from 'reactstrap';
 import me from '../assets/logo/sea.JPG';
 import Footer from './Footer';
 
@@ -15,8 +15,8 @@ const fotoImgBg = {
 const Beranda = () => {
     return (
         <div className="beranda" >
-            <Grid className="beranda-grid">
-                <Cell col={12}>
+            <Container fluid className="beranda-grid">
+                <div>
                     <img src={me} alt="foto" style={fotoImgBg} />
                     <br />
                     <div className="badgeHome">
@@ -60,8 +60,8 @@ const Beranda = () => {
                         </div>
 
                     </div>
-                </Cell>
-            </Grid>
+                </div>
+            </Container>
             <Footer />
 
         </div >

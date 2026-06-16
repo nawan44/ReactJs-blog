@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom';
-import 'react-mdl/extra/material.css';
-import 'react-mdl/extra/material.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layouting from './components/Layout';
 

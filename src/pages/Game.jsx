@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-mdl';
+import { Container } from 'reactstrap';
 import ar from '../assets/logo/ar.png';
 import vr from '../assets/logo/vr.png';
 import ContentList from '../components/contenList';
@@ -18,7 +18,7 @@ const buttonPorto = {
 const Game = () => {
     return (
         <div className="beranda">
-            <Grid className="beranda-grid">
+            <Container fluid className="beranda-grid">
                 <div className="beranda-grid-left">
                     <ContentList />
                 </div>
@@ -212,8 +212,7 @@ const Game = () => {
                         </div>
                     </div>
                 </div>
-            </Grid>
-            <Footer />
+            </Container>
         </div>
 
     )

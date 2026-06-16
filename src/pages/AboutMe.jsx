@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from 'react-mdl';
+import { Container } from 'reactstrap';
 import binar from '../assets/logo/logo-binar.png';
 import dts from '../assets/logo/logo-dts.png';
 import dicoding from '../assets/logo/logo-dicoding.png';
@@ -41,13 +41,13 @@ const berandaRightH = {
 const TentangSaya = () => {
     return (
         <div className="beranda">
-            <Grid className="beranda-grid">
+            <Container fluid className="beranda-grid">
                 <div className="beranda-grid-left">
                     <ContentList />
                 </div>
                 <div className="beranda-grid-right" >
                     <h3 style={judul}>Formal Education</h3>
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <img src={smk} className="logo" />
                         </div>
@@ -55,8 +55,8 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Vocational Secondary Schools 34 Jakarta</h5>
                             <h5 style={berandaRightH}>Automotive Mechanical Engineering</h5>
                         </div>
-                    </Grid>
-                    <Grid>
+                    </div>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://www.mercubuana.ac.id" target="blank" rel="nofollow">
                                 <img src={umb} className="logo" />
@@ -66,10 +66,10 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>University Of Mercu Buana</h5>
                             <h5 style={berandaRightH}>Bachelor's Degree of Informatics</h5>
                         </div>
-                    </Grid>
+                    </div>
                     <hr style={berandaGridRightHr} />
                     <h3 style={judul}>Non-Formal Education</h3>
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://digitalent.kominfo.go.id/" target="blank" rel="nofollow">
                                 <img src={dts} className="logo" />
@@ -80,8 +80,8 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Build Web with Node JS</h5>
                             <h5 style={berandaRightH}>HTML, CSS, Javascript</h5>
                         </div>
-                    </Grid>
-                    <Grid>
+                    </div>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://www.dicoding.com" target="blank" rel="nofollow">
                                 <img src={dicoding} className="logo" />
@@ -93,8 +93,8 @@ const TentangSaya = () => {
                             <Button color="success" size="lg" style={{ marginTop: '5px' }}
                                 href="https://www.dicoding.com/users/84441" target="blank" rel="nofollow">Developer Page</Button>
                         </div>
-                    </Grid>
-                    <Grid>
+                    </div>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://binar.co.id/" target="blank" rel="nofollow">
                                 <img src={binar} className="logo" />
@@ -106,9 +106,9 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>ReactJs</h5>
 
                         </div>
-                    </Grid>
+                    </div>
 
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://imastudio.co.id/" target="blank" rel="nofollow">
                                 <img src={imastudio} className="logo" />
@@ -120,8 +120,8 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>XML, Java</h5>
 
                         </div>
-                    </Grid>
-                    <Grid>
+                    </div>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://www.dqlab.id/" target="blank">
                                 <img src={dqlab} className="logo" />
@@ -132,9 +132,9 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Data Scientist</h5>
                             <h5 style={berandaRightH}>R, Python</h5>
                         </div>
-                    </Grid>
+                    </div>
 
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://ggcampus.com/" target="blank" rel="nofollow">
                                 <img src={ggcampus} className="logo" />
@@ -145,10 +145,10 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Game Development</h5>
                             <h5 style={berandaRightH}>Unity 3D, C#</h5>
                         </div>
-                    </Grid>
+                    </div>
                     <hr style={berandaGridRightHr} />
                     <h3 style={judul}>Certifications</h3>
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://aspen.eccouncil.org/verify" target="blank" rel="nofollow">
                                 <img src={cscu} className="logo" />
@@ -159,8 +159,8 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Certified Secure Computer User v2</h5>
                             <h5 style={berandaRightH}>ECC78814255628</h5>
                         </div>
-                    </Grid>
-                    <Grid>
+                    </div>
+                    <div>
                         <div className="bg-right-logo" >
                             <NavLink href="https://www.certiport.com/Portal/Pages/CredentialVerification.aspx" target="blank" rel="nofollow">
                                 <img src={microsoft} className="logo" />
@@ -171,10 +171,10 @@ const TentangSaya = () => {
                             <h5 style={berandaRightH}>Microsoft Technology Associate - Database Administration Fundamentals</h5>
                             <h5 style={berandaRightH}>EoCo - XLRq</h5>
                         </div>
-                    </Grid>
+                    </div>
                     <hr style={berandaGridRightHr} />
                     <h3 style={judul}>Experience</h3>
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <img src={toyota} className="logo" />
                         </div>
@@ -221,10 +221,10 @@ const TentangSaya = () => {
                             <h6 style={berandaRightH}> July 2020 - November 2020</h6>
                             <h5 style={berandaRightH}>Software Engineer</h5>
                         </div>
-                    </Grid>
+                    </div>
                     {/* <hr style={berandaGridRightHr}/>
                     <h3 className="judul">Freelance</h3>
-                    <Grid>
+                    <div>
                         <div className="bg-right-logo" >
                             <img src={upwork} style ={logo}/>
                         </div>
@@ -250,9 +250,9 @@ const TentangSaya = () => {
                                 href="https://projects.co.id/public/browse_users/view/94bf15/nawan44" target="blank" rel="nofollow">Developer Page</Button>
                         </div>
                        
-                    </Grid> */}
+                    </div> */}
                 </div>
-            </Grid>
+            </Container>
             <Footer />
 
         </div>

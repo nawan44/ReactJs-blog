@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './css/App.css';
 import Routes from '../../Route';
 import { Link } from 'react-router-dom';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import {
+    Navbar,
+    NavbarBrand,
+    NavbarToggler,
+    Collapse,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
 
 const navIcon = {
     fontSIze: '60px',
@@ -15,40 +23,37 @@ const navContent = {
     fontSize: "30px"
 }
 const Layouting = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
+
     return (
         <div className="demo-big-content">
-            <Layout>
-                <Header className="header-color" title="Portofolio" style={navContent} scroll>
-                    <Navigation >
-                        <Link to="/Home" >Home</Link>
-                        <Link to="/AboutMe">About Me</Link>
-                        <Link to="/Game">Game</Link>
-                        <Link to="/Website">Website</Link>
-                        <Link to="/Apps">Android</Link>
-                    </Navigation>
-                </Header>
-                <Drawer title="Portofolio" style={navContent}>
-                    <Navigation >
-                        <Link style={navIcon} to="/Home">Home  </Link>
-                        <Link style={navIcon} to="/AboutMe">About Me</Link>
-                        <hr style={{ borderTop: '3px solid #833fb2' }} />
-                        <Link to="/Game">
-                            <i class="fa fa-gamepad" style={navIcon}> Game </i>
-                        </Link>
-                        <Link to="/Apps">
-                            <i class="fa fa-android" style={navIcon}> Android </i>
-                        </Link>
-                        <Link to="/Website">
-                            <i class="fa fa-globe" style={navIcon} > Website </i>
-                        </Link>
-                    </Navigation>
-                </Drawer>
-                <Content>
-                    {/* <div className="page-content"/> */}
-                    <Routes />
-                </Content>
-                {/* <Footer/> */}
-            </Layout>
+            <Navbar expand="md" style={navContent} dark>
+                <NavbarBrand tag={Link} to="/Home">Portofolio</NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="ms-auto" navbar>
+                        <NavItem>
+                            <NavLink tag={Link} to="/Home">Home</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} to="/AboutMe">About Me</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} to="/Game">Game</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} to="/Website">Website</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} to="/Apps">Android</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+            <div className="page-content">
+                <Routes />
+            </div>
         </div>
     );
 }
